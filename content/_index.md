@@ -1,7 +1,7 @@
 ---
-title: "Home 222"
+title: "Home"
 date: 2018-11-23T04:58:20+02:00
 draft: false
 ---
 
-The home content.
+This is the new content.
