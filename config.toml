@@ -3,3 +3,11 @@ languageCode = "en-us"
 title = "exegetic"
 
 theme = "exegetic"
+
+[params]
+  [params.contact]
+    title = "Contact"
+    text = "Contact details go here. Maybe also a contact form?"
+    [params.contact.image]
+      path = "https://via.placeholder.com/300"
+      alt = "Watch"

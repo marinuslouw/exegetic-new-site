@@ -19,5 +19,3 @@ draft: false
 - Automation
 
 ### Values
-
-## Contact
