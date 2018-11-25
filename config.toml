@@ -7,7 +7,7 @@ theme = "exegetic"
 [params]
   [params.contact]
     title = "Contact"
-    text = "Contact details go here. Maybe also a contact form?"
+    text = "Contact details go here. Maybe also a contact form? And the background colour is an abomination.\nmore test."
     [params.contact.image]
       path = "https://via.placeholder.com/300"
       alt = "Watch"
