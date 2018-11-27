@@ -11,6 +11,8 @@
 .h1, h1 {
 	font-size: 5rem;
 }
+.h2, h2 {
+}
 
 .section {
 	padding-top: 75px;
@@ -21,9 +23,6 @@
 }
 .contact h2 {
 	color: #fff;
-	font-weight: 700;
-	margin-bottom: 10px;
-	padding-bottom: 0;
 	text-align: left;
 }
 .contact p {
