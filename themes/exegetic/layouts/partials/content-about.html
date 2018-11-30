@@ -1,0 +1,47 @@
+    {{ with .Site.Params.clients }}
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center">
+          {{- with .image }}
+            <img src="{{ .path }}" alt="{{ .alt }}">
+          {{- end }}
+          </div>
+          <div class="col-md-6">
+            <div class="content mt-100">
+              <h2 class="subheading">What is Exegetic?</h2>
+
+              <p>The biggest challenge to initiating and maintaining a Data Science capability is finding the right people.</p>
+
+              <p>Large enterprises are able to sustain an in-house Data Science team.</p>
+
+              <p>Smaller businesses find it more challenging. They understand that data-driven processes are essential to modern business. But where to find skilled Data Scientists, Data Engineers, Statisticians and Report Designers to execute their analytics projects?</p>
+
+              <p>That's where Exegetic comes into the picture.</p>
+
+              <p>We recognise that there are many challenges to adopting and maintaining a small and nimble Data Science team. That's why we offer a flexible and economical solution: Data Science on Demand.</p>
+
+              <h2>Data Science on Demand</h2>
+
+              <p>Many companies have Data Science projects they’d like to start, but lack the necessary expertise to get them off the ground. Recruiting can be a slow and expensive process.</p>
+
+              <p>With Exegetic you can get up and running with your Data Science project immediately. We'll start with a Proof of Concept and then expand the project according to your requirements.</p>
+
+              <p>Our Data Science On Demand service has numerous benefits:</p></p>
+
+              <ul>
+              <li> Incrementally develop your Data Science capability
+              <li> Only engaged for the duration of your project
+              <li> Part-time or full-time
+              <li> On premise or remote
+              <li> Avoid recruiting and onboarding costs
+              <li> Ongoing support
+              </ul>
+
+              <p>Launch your project immediately with an experienced Data Scientist on your team.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    {{ end }}
