@@ -1,15 +1,64 @@
     {{ with .Site.Params.clients }}
-    <section class="bg-secondary section">
+    <section class="section">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 text-center">
-          {{- with .image }}
-            <img src="{{ .path }}" alt="{{ .alt }}">
-          {{- end }}
-          </div>
-          <div class="col-md-6">
+          <div class="col-md-9">
             <div class="content mt-100">
               <h2 class="subheading">Our Clients</h2>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div id="client-carousel" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="https://www.bluesecurity.co.za/" target="_blank">
+                    <img class="d-block w-100" src="img/logo-client-blue-security.png" alt="Blue Security">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="https://www.da.org.za/" target="_blank">
+                    <img class="d-block w-100" src="img/logo-client-democratic-alliance.png" alt="Democratic Alliance">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="https://www.investec.com/en_za.html" target="_blank">
+                    <img class="d-block w-100" src="img/logo-client-investec.png" alt="Investec">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="https://www.vantagedata.co.za/" target="_blank">
+                    <img class="d-block w-100" src="img/logo-client-vantage-data.png" alt="Vantage Data">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="https://citizenshipper.com/" target="_blank">
+                    <img class="d-block w-100" src="img/logo-client-citizenshipper.png" alt="CitizenShipper">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="https://derivco.co.za/" target="_blank">
+                    <img class="d-block w-100" src="img/logo-client-derivco.png" alt="Derivco">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="https://orderin.co.za/" target="_blank">
+                    <img class="d-block w-100" src="img/logo-client-orderin.png" alt="OrderIn">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="https://www.vodacom.co.za/" target="_blank">
+                    <img class="d-block w-100" src="img/logo-client-vodacom.png" alt="Vodacom">
+                  </a>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#client-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#client-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
           </div>
         </div>
