@@ -29,3 +29,13 @@
 	/*color: #fff;*/
 	font-size: 18px;
 }
+
+a .card-header {
+	color: black;
+}
+a .card-header i {
+	color: green;
+}
+a .collapsed {
+	color: red;
+}
