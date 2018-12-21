@@ -14,6 +14,10 @@
 .h2, h2 {
 }
 
+h3 {
+	text-align: center;
+}
+
 .section {
 	padding-top: 75px;
 	padding-bottom: 75px;
