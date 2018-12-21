@@ -14,6 +14,10 @@
 .h2, h2 {
 }
 
+h3 {
+	text-align: center;
+}
+
 .section {
 	padding-top: 75px;
 	padding-bottom: 75px;
@@ -39,3 +43,24 @@ a .card-header i {
 a .collapsed {
 	color: red;
 }
+
+.column {
+  float: left;
+  width: 24%;
+  padding: 10px;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.icon {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+}
+
