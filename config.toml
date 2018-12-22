@@ -8,12 +8,19 @@ theme = "exegetic"
   [params.contact]
     title = "Contact"
     text = ""
+  [params.about]
+    [params.about.image]
+      path = "img/exegetic-logo.svg"
+      alt = "Watch"
+  [params.what]
     [params.what.image]
-      path = "https://via.placeholder.com/300"
+      path = "img/exegetic-logo.svg"
       alt = "Watch"
+  [params.how]
     [params.how.image]
-      path = "https://via.placeholder.com/300"
+      path = "img/exegetic-logo.svg"
       alt = "Watch"
+  [params.clients]
     [params.clients.image]
       path = "https://via.placeholder.com/300"
       alt = "Watch"
