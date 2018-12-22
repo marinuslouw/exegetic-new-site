@@ -10,7 +10,38 @@
           <div class="col-md-6">
             <div class="content mt-100">
               <h2 class="subheading">Contact</h2>
-              <p>Contact details go here. Maybe also a contact form?</p>
+
+              <form method="post" action="//formspree.io/info@exegetic.biz">
+<!--                 <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Example textarea</label>
+                  <textarea class="form-control form-control-sm" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div> -->
+                <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+
+                                  <!-- <div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name"></div> -->
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Name</label>
+                  <input type="text" name="name" id="name" placeholder="Name">
+                  <!-- <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"> -->
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <!-- <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"> -->
+                  <input type="email" name="email" id="email" placeholder="Your Email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Example textarea</label>
+                  <!-- <textarea class="form-control form-control-sm" id="exampleFormControlTextarea1" rows="3"></textarea> -->
+                  <textarea name="message" id="message" placeholder="Your Message" rows="4"></textarea>
+                </div>
+                <input type="submit" value="send message" class="special">
+              </form>
             </div>
           </div>
         </div>
