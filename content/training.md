@@ -1,10 +1,17 @@
 ---
 title: "Training"
-date: 2018-12-22T06:26:23+02:00
-draft: true
+draft: false
 categories: []
 tags: []
-type: "page"
-layout: "training"
 ---
 
+<div class="container mh-100">
+	<div class="row">
+  		<div class="col-md-6 text-center">
+  			foo
+  		</div>
+  		<div class="col-md-6 text-center">
+  			bar
+  		</div>
+  	</div>
+</div>
