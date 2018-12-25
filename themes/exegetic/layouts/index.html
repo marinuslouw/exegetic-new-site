@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-{{ partial "site-head.html" . }}
-  <body>
-{{ partial "site-nav.html" . }}
-    <header>
+{{ define "header" }}
       <div class="full-page-banner-image d-flex align-items-center" style="background-image: url('img/exe-b1.png');">
           <div class="container ">
             <div class="row align-items-center">
@@ -13,7 +8,9 @@
             </div>
           </div>
       </div>
-    </header>
+{{ end }}
+
+{{ define "main" }}
     <section class="py-5 bg-dark text-light">
       <div class="container">
         <h1 class="text-center">Data Science on Demand</h1>
@@ -25,5 +22,4 @@
 {{ partial "content-contact.html" . }}
 {{ partial "content-clients.html" . }}
 {{ partial "site-footer.html" . }}
-  </body>
-</html>
+{{ end }}
