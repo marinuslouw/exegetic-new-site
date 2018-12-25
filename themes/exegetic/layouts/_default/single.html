@@ -1,16 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-{{ partial "site-head.html" . }}
-  <body>
-{{ partial "site-nav.html" . }}
-    <section class="py-5">
-      <div class="container">
-        <h1>{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}</h1>
-      </div>
-    </section>
-    <section class="py-5">
-{{ .Content }}
-    </section>
-{{ partial "site-footer.html" . }}
-  </body>
-</html>
+{{ define "main" }}
+  <section class="section">
+    <div class="container">
+      <h1>{{.Title}}</h1>
+
+      <aside id="meta">
+        <div class="row">
+          <div class="col-md-2">
+            {{.Date.Format "2006-01-02"}}
+          </div>
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-6" id="tags">
+            {{ with .Params.tags }}
+            Tags: {{ range . }}<a href="{{ "tags" | absURL }}/{{ . | urlize }}" class="btn btn-outline-primary btn-sm">{{ . }}</a>&nbsp;{{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </aside>
+
+      <article>
+      {{.Content}}
+      </article>
+
+      <aside>
+        <div class="row">
+          <div class="col-md-6">
+            {{ with .PrevInSection }}
+            Previous: <a class="previous" href="{{.Permalink}}">{{.Title}}</a>
+            {{ end }}
+          </div>
+          <div class="col-md-6">
+            {{ with .NextInSection }}
+            Next: <a class="next" href="{{.Permalink}}">{{.Title}}</a>
+            {{ end }}
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+{{ end }}
