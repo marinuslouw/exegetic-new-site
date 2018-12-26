@@ -5,6 +5,7 @@ title = "exegetic"
 theme = "exegetic"
 
 [params]
+  favicon = "img/favicon.ico"
   [params.contact]
     title = "Contact"
     text = ""
