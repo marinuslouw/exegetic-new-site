@@ -20,8 +20,6 @@ body > nav > div > a > img {
     margin-right: 0px;
 }
 
-
-
 .full-page-banner-image {
 	height: 100vh;
 	min-height: 300px;
@@ -58,6 +56,12 @@ h3 {
 	font-size: 18px;
 }
 
+/* ANCHORS ------------------------------------------------------------------------------------- */
+
+footer a {
+	color: white;
+}
+
 a .card-header {
 	color: black;
 }
@@ -66,6 +70,25 @@ a .card-header i {
 }
 a .collapsed {
 	color: red;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+#content > section > div > h1 {
+	/*font-family: 'Orbitron', sans-serif;*/
+	font-weight: 400;
+	margin-bottom: 0;
+}
+
+#services > div > div > div > div > div > h3 {
+	margin-top: 0.5rem;
+}
+
+#services > div > div > div > div {
+	background-color: #8B9196;
+	margin-bottom: 30px;
+	padding: 20px;
+	height: 480px;
 }
 
 .column {

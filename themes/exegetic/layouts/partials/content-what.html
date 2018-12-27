@@ -1,140 +1,126 @@
-    {{ with .Site.Params.what }}
-    <section class="section bg-secondary text-light" id="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <h2 class="subheading">What We Do</h2>
+{{ with .Site.Params.what }}
+<section class="section bg-secondary text-light" id="services">
+  <div class="container-flex">
+    <div class="row">
+      <div class="col-md-4">
+        <div>
+          <div>
+              <img class="icon" src="img/icon/training1.svg">
+              <h3>Training</h3>
+              <hr>
           </div>
-          <div class="col-md-9">
-            <div class="row">
-              <div class="col-md-3">
-                <h3>On Demand</h3>
-                <img class="icon" style="max-width: 80%" src="img/icon/on-demand.svg">
-              </div>
-              <div class="col-md-9">
-              </div>
-            </div>
+          <p>The Data Science landscape is complicated and convoluted. Your employees already understand your business and industry. We'll help them augment this knowledge with the fundamental concepts of Data Science, tools and techniques to turn aspiring analysts into productive practitioners.</p>
 
-            <div class="row">
-              <div class="col-md-3">
-                <h3>Analytics</h3>
-                <img class="icon" style="max-width: 80%" src="img/icon/analytics.svg">
-              </div>
-              <div class="col-md-9">
-              </div>
-            </div>
-            
-            <div class="row">
-              <div class="col-md-3">
-                <h3>Products</h3>
-                <img class="icon" style="max-width: 80%" src="img/icon/products.svg">
-              </div>
-              <div class="col-md-9">
-              </div>
-            </div>
-            
-            <div class="row">
-              <div class="col-md-3">
-                <h3>Data</h3>
-                <img class="icon" style="max-width: 80%" src="img/icon/data1.svg">
-              </div>
-              <div class="col-md-9">
-                <p>Big Data? Little Data? Doesn't matter. We're just interested in data.</p>
+          <p>We focus on applied learning, working with real data and solving real problems.</p>
 
-                <p>From server logs to service histories, social media to sensors, spreadsheets to big databases. We'll use whatever data you have at your disposal.</p>
-
-                <p>We have experience with a vast variety of data types and forms. And we've learned that there's usually something interesting and useful to be found in most data.</p>
-
-                <ul>
-                  <li> Cleaning and Outlier Removal
-                  <li> Augmentation
-                  <li> Deduplication
-                  <li> Efficient Storage
-                  <li> Curation (documenting format and contents)
-                  <li> All forms of Wrangling!
-                </ul>
-              </div>
-            </div>
-            
-            <div class="row">
-              <div class="col-md-3">
-                <h3>API & Scraping</h3>
-                <img class="icon" style="max-width: 80%" src="img/icon/api-and-scraping.svg">
-              </div>
-              <div class="col-md-9">
-                <p>Many web sites expose APIs, which allow programmatic access to their data. We can build scripts which will acquire these data.</p>
-
-                <p>Other sites present more of a challenge. We can write sophisticated Web Scrapers which will systematically harvest data from both static and dynamic web pages. All of this without breaking any laws or violating terms of service.</p>
-              </div>
-            </div>
-            
-            <div class="row">
-              <div class="col-md-3">
-                <h3>Communication</h3>
-                <img class="icon" style="max-width: 80%" src="img/icon/communication1.svg">
-              </div>
-              <div class="col-md-9">
-                <p>Data Science results can be complex and nuanced. We communicate our analyses in ways that are meaningful, easy to digest and focused on addressing your problems.</p>
-
-                <p>If you want to know the nitty-gritty, then we won't dumb it down for you. We'll eviscerate every aspect of the problem and you can scrutinise the details.</p>
-
-                <p>Or we'll just cut to the chase and tell you the bottom line: concise results in plain English.</p>
-              </div>
-            </div>
-            
-            <div class="row">
-              <div class="col-md-3">
-                <h3>Training</h3>
-                <img class="icon" style="max-width: 80%" src="img/icon/training1.svg">
-              </div>
-              <div class="col-md-9">
-                <p>The Data Science landscape is complicated and convoluted. Your employees already understand your business and industry. We'll help them augment this knowledge with the fundamental concepts of Data Science, tools and techniques to turn aspiring analysts into productive practitioners.</p>
-
-                <p>We focus on applied learning, working with real data and solving real problems.</p>
-
-                <p><a href="training">Read more</a></p>
-              </div>
-            </div>
-            
-            <div class="row">
-              <div class="col-md-3">
-                <h3>Forecasting</h3>
-                <img class="icon" style="max-width: 80%" src="img/icon/demand-forecasting.svg">
-              </div>
-              <div class="col-md-9">
-              </div>
-            </div>
-            
-            <div class="row">
-              <div class="col-md-3">
-                <h3>Optimisation</h3>
-                <img class="icon" style="max-width: 80%" src="https://via.placeholder.com/300">
-              </div>
-              <div class="col-md-9">
-              </div>
-            </div>
-            
-            <div class="row">
-              <div class="col-md-3">
-                <h3>Simulation</h3>
-                <img class="icon" style="max-width: 80%" src="https://via.placeholder.com/300">
-              </div>
-              <div class="col-md-9">
-              </div>
-            </div>
-            
-            <div class="row">
-              <div class="col-md-3">
-                <h3>Automated Reporting</h3>
-                <img class="icon" style="max-width: 80%" src="https://via.placeholder.com/300">
-              </div>
-              <div class="col-md-9">
-                <p>Generating reports by hand is mundane and error prone. We build automated reports based on your data, which can be regenerated whenever the data changes or according to a schedule.</p>
-              </div>
-            </div>
-            
-          </div>          
+          <p><a href="training">Read more</a></p>
         </div>
       </div>
-    </section>
-    {{ end }}
+
+      <div class="col-md-4">
+        <div>
+          <div>
+              <img class="icon" src="img/icon/demand-forecasting.svg">
+              <h3>Forecasting</h3>
+              <hr>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div>
+          <div>
+              <img class="icon" src="img/icon/communication1.svg">
+              <h3>Communication</h3>
+              <hr>
+          </div>
+          <p>Data Science results can be complex and nuanced. We communicate our analyses in ways that are meaningful, easy to digest and focused on addressing your problems.</p>
+
+          <p>If you want to know the nitty-gritty, then we won't dumb it down for you. We'll eviscerate every aspect of the problem and you can scrutinise the details.</p>
+
+          <p>Or we'll just cut to the chase and tell you the bottom line: concise results in plain English.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div>
+          <div>
+              <img class="icon" src="https://via.placeholder.com/155">
+              <h3>Optimisation</h3>
+              <hr>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div>
+          <div>
+              <img class="icon" src="https://via.placeholder.com/155">
+              <h3>Simulation</h3>
+              <hr>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div>
+          <div>
+              <img class="icon" src="https://via.placeholder.com/155">
+              <h3>Automated Reporting</h3>
+              <hr>
+          </div>
+          <p>Generating reports by hand is mundane and error prone. We build automated reports based on your data, which can be regenerated whenever the data changes or according to a schedule.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div>
+          <div>
+              <img class="icon" src="img/icon/api-and-scraping.svg">
+              <h3>API & Scraping</h3>
+              <hr>
+          </div>
+          <p>Many web sites expose APIs, which allow programmatic access to their data. We can build scripts which will acquire these data.</p>
+
+          <p>Other sites present more of a challenge. We can write sophisticated Web Scrapers which will systematically harvest data from both static and dynamic web pages. All of this without breaking any laws or violating terms of service.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div>
+          <div>
+              <img class="icon" src="img/icon/data1.svg">
+              <h3>Data</h3>
+              <hr>
+          </div>
+          <p>Big Data? Little Data? Doesn't matter. We're just interested in data.</p>
+
+          <p>From server logs to service histories, social media to sensors, spreadsheets to big databases. We'll use whatever data you have at your disposal.</p>
+
+          <p>We have experience with a vast variety of data types and forms. And we've learned that there's usually something interesting and useful to be found in most data.</p>
+
+          <ul>
+            <li> Cleaning and outlier Removal
+            <li> Augmentation
+            <li> Deduplication
+            <li> Efficient storage
+            <li> Curation (documenting format and contents)
+            <li> All forms of wrangling!
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div>
+          <div>
+              <img class="icon" src="img/icon/analytics.svg">
+              <h3>Analytics</h3>
+              <hr>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+{{ end }}
