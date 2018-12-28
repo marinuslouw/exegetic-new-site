@@ -91,6 +91,11 @@ a .collapsed {
 	height: 480px;
 }
 
+/* Avoid overlap of last section with footer. */
+section:last-of-type {
+	margin-bottom: 56px;
+}
+
 .column {
   float: left;
   width: 24%;
