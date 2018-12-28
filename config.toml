@@ -2,6 +2,8 @@ baseURL = "https://www.exegetic.biz/"
 languageCode = "en-us"
 title = "exegetic"
 
+googleAnalytics = "UA-40073522-2"
+
 theme = "exegetic"
 
 [params]
