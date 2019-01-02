@@ -1,5 +1,5 @@
 ---
-title: "Automated Reporting"
+title: "Data Science with R"
 tags: ['R']
 draft: true
 ---

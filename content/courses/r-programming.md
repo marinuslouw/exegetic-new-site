@@ -1,5 +1,5 @@
 ---
-title: "Automated Reporting"
+title: "R Programming"
 tags: ['R']
 draft: true
 ---
