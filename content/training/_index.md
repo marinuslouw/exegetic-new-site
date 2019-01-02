@@ -6,26 +6,30 @@ tags: []
 ---
 
 <div class="container mh-100">
-	<div class="row">
-  		<div class="col-md-9">
-	<p>We offer tailored training programs suitable for organisations of all sizes. Build your own training program or select one of our established courses:</p>
+  <div class="row">
+    <div class="col-md-9">
+      <p>We offer tailored training programs suitable for organisations of all sizes. Build your own training program or select one of our established courses:</p>
 
-	<ul>
-		<li> Executive Introduction to Data Science</li>
-		<li> Data Literacy</li>
-		<li> Introduction to R</li>
-		<li> Programming with R</li>
-		<li> Building R Packages</li>
-		<li> Data Science with R</li>
-		<li> Data Science with Python</li>
-		<li> Data Science for Developers</li>
-		<li> Web Scraping</li>
-		<li> Graphics & Visualisation</li>
-	</ul>
+      <ul>
+      <li> Executive Introduction to Data Science</li>
+      <li> Data Literacy</li>
+      <li> Introduction to R</li>
+      <li> Programming with R</li>
+      <li> Building R Packages</li>
+      <li> Data Science with R</li>
+      <li> Data Science with Python</li>
+      <li> Data Science for Developers</li>
+      <li> Web Scraping</li>
+      <li> Graphics & Visualisation</li>
+      </ul>
 
-	<p><a href="/#contact">Contact us</a> to find out more or book training.</p>
-	</div>
-	</div>
+      <p><a href="/#contact">Contact us</a> to find out more or book training.</p>
+
+      <a href="{{< ref "online.md" >}}">Online Training</a>
+
+      <a href="{{< ref "person.md" >}}">In Person Training</a>
+    </div>
+  </div>
 </div>
 
 <section class="section">
