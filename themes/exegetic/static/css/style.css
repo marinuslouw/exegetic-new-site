@@ -35,8 +35,10 @@ body > nav > div > a > img {
 }
 .h2, h2 {
 }
-
 h3 {
+}
+
+#services h3 {
 	text-align: center;
 }
 
