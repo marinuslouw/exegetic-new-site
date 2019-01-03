@@ -1,6 +1,6 @@
 ---
 title: "R: An Introduction"
-tags: ['R']
+subjects: ['R']
 draft: true
 ---
 

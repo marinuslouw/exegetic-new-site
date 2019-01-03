@@ -1,6 +1,6 @@
 ---
 title: "Web Scraping with R"
-tags: ['R', 'Web Scraping']
+subjects: ['R', 'Web Scraping']
 draft: true
 ---
 

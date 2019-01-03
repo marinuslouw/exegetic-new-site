@@ -1,6 +1,6 @@
 ---
 title: "R Programming"
-tags: ['R']
+subjects: ['R']
 draft: true
 ---
 

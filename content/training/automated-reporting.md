@@ -1,6 +1,6 @@
 ---
 title: "Automated Reporting"
-tags: ['R']
+subjects: ['R']
 draft: true
 ---
 

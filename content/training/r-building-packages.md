@@ -1,6 +1,6 @@
 ---
 title: "Building R Packages"
-tags: ['R']
+subjects: ['R']
 draft: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Web Scraping with Python"
-tags: ['Python', 'Web Scraping']
+subjects: ['Python', 'Web Scraping']
 draft: true
 ---
 

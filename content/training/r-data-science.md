@@ -1,6 +1,6 @@
 ---
 title: "Data Science with R"
-tags: ['R']
+subjects: ['R', 'Data Science']
 draft: true
 ---
 

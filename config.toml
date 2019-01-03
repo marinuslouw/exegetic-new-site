@@ -6,6 +6,11 @@ googleAnalytics = "UA-40073522-2"
 
 theme = "exegetic"
 
+[taxonomies]
+  category = "categories"
+  subject = "subjects"
+  tag = "tags"
+
 [params]
   favicon = "img/favicon.ico"
   [params.contact]
