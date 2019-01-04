@@ -31,7 +31,7 @@ body > nav > div > a > img {
 }
 
 .h1, h1 {
-	font-size: 5rem;
+	font-size: 4rem;
 }
 .h2, h2 {
 }
@@ -118,8 +118,21 @@ section:last-of-type {
 }
 
 .icon {
-	  display: block;
-	  margin-left: auto;
-	  margin-right: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
+button.subject {
+	font-size: 60%;
+	padding-right: 0.25rem;
+	padding-left: 0.25rem;
+	padding-top: 0.125rem;
+	padding-bottom: 0.125rem;
+}
+
+.subject .boilerplate {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	background-color: #e9ecef;
+}

@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <section class="section">
+  <section class="section" id="{{ .Title | urlize | lower }}">
     <div class="container">
       <!-- Pick up content from the category _index.md. -->
       <h1>{{.Title}}</h1>
@@ -8,10 +8,18 @@
       </article>
 
       {{ range $name, $taxonomy := .Site.Taxonomies.subjects }}
-      <h3 style="text-transform: capitalize" id="{{ $name | urlize }}">{{ replace $name "-" " " }}</h3>
+      <h3 id="{{ $name }}">{{ $name | humanize | title }}</h3>
       <ul>
       {{ range $taxonomy }}
-        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <!-- Only include tags for other subjects. -->
+          {{ range .Params.subjects }}
+          {{ if ne . ($name | humanize | title) }}
+          {{ partial "subject-tag.html" . }}
+          {{ end }}
+          {{ end }}
+        </li>
       {{ end }}
       </ul>
       {{ end }}

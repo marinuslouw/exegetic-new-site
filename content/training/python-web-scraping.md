@@ -1,5 +1,5 @@
 ---
-title: "Web Scraping with Python"
+title: "Web Scraping"
 subjects: ['Python', 'Web Scraping']
 draft: true
 ---
