@@ -1,7 +1,6 @@
 ---
 title: "Web Scraping"
 subjects: ['R', 'Web Scraping']
-draft: false
 ---
 
 ### Day 1
@@ -16,6 +15,9 @@ draft: false
 	- XPath (summary of [XPath]({{< ref "web-xpath.md" >}}))
 	- Important files: `robots.txt` and `sitemap.xml`
 	- Ethics
+- HTTP
+	- How HTTP works
+	- Diagnosing requests with `curl` and <https://httpbin.org/>
 - Scraping a Static Website using [rvest](https://github.com/hadley/rvest)
 	- Retrieving page content
 	- Navigation

@@ -12,6 +12,9 @@
       <ul>
       {{ range $taxonomy }}
         <li>
+          {{ if .Draft }}
+          <button type="button" class="btn btn-danger btn-sm disabled subject">Draft</button>
+          {{ end }}
           <a href="{{ .Permalink }}">{{ .Title }}</a>
           <!-- Only include tags for other subjects. -->
           {{ range .Params.subjects }}
