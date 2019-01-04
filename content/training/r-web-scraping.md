@@ -12,7 +12,8 @@ draft: false
 - Introduction to Scraping
 	- DOM
 	- Developer Tools
-	- CSS and XPath
+	- CSS (summary of [CSS]({{< ref "web-css.md" >}}))
+	- XPath (summary of [XPath]({{< ref "web-xpath.md" >}}))
 	- Important files: `robots.txt` and `sitemap.xml`
 	- Ethics
 - Scraping a Static Website using [rvest](https://github.com/hadley/rvest)

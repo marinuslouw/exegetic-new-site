@@ -4,10 +4,6 @@ subjects: ['R']
 draft: false
 ---
 
-- Compound Data Structures
-	- Vectors
-	- Lists
-	- Data Frames
 - Loading data from files
 	- CSV using base and [readr](https://github.com/tidyverse/readr)
 	- XLSX using [readxl](https://github.com/tidyverse/readxl)
