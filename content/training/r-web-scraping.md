@@ -1,7 +1,7 @@
 ---
 title: "Web Scraping"
 subjects: ['R', 'Web Scraping']
-draft: true
+draft: false
 ---
 
 ### Day 1

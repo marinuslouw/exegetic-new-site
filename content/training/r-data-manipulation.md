@@ -1,7 +1,7 @@
 ---
 title: "Data Manipulation in the Tidyverse"
 subjects: ['R']
-draft: true
+draft: false
 ---
 
 - Compound Data Structures
