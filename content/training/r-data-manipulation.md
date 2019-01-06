@@ -1,6 +1,7 @@
 ---
 title: "Data Manipulation in the Tidyverse"
 subjects: ['R']
+subjects_weight: 21
 draft: false
 ---
 

@@ -1,6 +1,7 @@
 ---
-title: "R Programming"
+title: "R Fundamentals"
 subjects: ['R']
+subjects_weight: 20
 draft: true
 ---
 

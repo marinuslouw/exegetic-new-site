@@ -5,6 +5,6 @@ categories: []
 tags: []
 ---
 
-These are the training programmes we currently offer.
+These are the training courses we currently offer.
 
-If none of these meet your precise needs, then we are happy to put together something specific which will satisfy your requirements.
+If none of these meet your needs, then we can construct a course which meets your precise requirements. Alternatively, we can mix and match components from existing courses.

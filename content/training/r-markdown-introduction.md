@@ -1,6 +1,8 @@
 ---
 title: "Markdown: Introduction"
 subjects: ['R']
+subjects_weight: 100
+draft: true
 ---
 
 - What is Mark(up|down)?

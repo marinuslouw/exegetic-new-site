@@ -1,6 +1,7 @@
 ---
 title: "Web Scraping"
 subjects: ['R', 'Web Scraping']
+subjects_weight: 130
 ---
 
 ### Day 1

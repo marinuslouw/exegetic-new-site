@@ -1,6 +1,7 @@
 ---
 title: "CSS"
 subjects: ['Web Development']
+subjects_weight: 10
 ---
 
 This short course gives an overview of Cascading Style Sheets (CSS) and is important background for our Web Development and Web Scraping courses.

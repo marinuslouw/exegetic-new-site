@@ -1,6 +1,7 @@
 ---
 title: "XPath"
 subjects: ['Web Development']
+subjects_weight: 12
 ---
 
 <!-- http://tyrex.inria.fr/courses/mosig/xpath.pdf -->
