@@ -1,0 +1,11 @@
+---
+title: "Markdown: Dashboards"
+subjects: ['R']
+draft: true
+---
+
+- GETTING DATA
+- CREATING VISUALISATIONS (GGPLOT AND PLOTLY)
+- CREATING TABLES
+- AESTHETICS (DIALS AND STUFF)
+- DEPLOYING
