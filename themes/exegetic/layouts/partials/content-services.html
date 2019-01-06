@@ -1,181 +1,166 @@
 {{ with .Site.Params.what }}
 <section class="section bg-secondary text-light" id="services">
+  <!-- Responsive card solution from https://www.codeply.com/go/nIB6oSbv6q. -->
   <div class="container-flex">
-    <div class="row">
-      <div class="col-md-4">
-        <div>
-          <div>
+      <div class="card-deck">
+          <div class="card mb-4">
+            <div class="card-body">
               <img class="icon" src="img/icon/training1.svg">
-              <h3>Training</h3>
+              <h4 class="card-title">Training</h4>
               <hr>
+              <div class="card-text">
+                <p>The Data Science landscape is complicated and convoluted. Your employees already understand your business and industry. We'll help them augment this knowledge with the fundamental concepts of Data Science, tools and techniques to turn aspiring analysts into productive practitioners.</p>
+
+                <p>We focus on applied learning, working with real data and solving real problems.</p>
+
+                <p><a href="training">Read more</a></p>
+              </div>
+            </div>
           </div>
-          <p>The Data Science landscape is complicated and convoluted. Your employees already understand your business and industry. We'll help them augment this knowledge with the fundamental concepts of Data Science, tools and techniques to turn aspiring analysts into productive practitioners.</p>
-
-          <p>We focus on applied learning, working with real data and solving real problems.</p>
-
-          <p><a href="training">Read more</a></p>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div>
-          <div>
+          <div class="card mb-4">
+            <div class="card-body">
               <img class="icon" src="img/icon/demand-forecasting.svg">
-              <h3>Forecasting</h3>
+              <h4 class="card-title">Forecasting</h4>
               <hr>
+              <div class="card-text">
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div>
-          <div>
+          <div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
+          <div class="card mb-4">
+            <div class="card-body">
               <img class="icon" src="img/icon/communication1.svg">
-              <h3>Communication</h3>
+              <h4 class="card-title">Communication</h4>
               <hr>
+              <div class="card-text">
+                <p>Data Science results can be complex and nuanced. We communicate our analyses in ways that are meaningful, easy to digest and focused on addressing your problems.</p>
+
+                <p>If you want to know the nitty-gritty, then we won't dumb it down for you. We'll eviscerate every aspect of the problem and you can scrutinise the details.</p>
+
+                <p>Or we'll just cut to the chase and tell you the bottom line: concise results in plain English.</p>
+              </div>
+            </div>
           </div>
-          <p>Data Science results can be complex and nuanced. We communicate our analyses in ways that are meaningful, easy to digest and focused on addressing your problems.</p>
-
-          <p>If you want to know the nitty-gritty, then we won't dumb it down for you. We'll eviscerate every aspect of the problem and you can scrutinise the details.</p>
-
-          <p>Or we'll just cut to the chase and tell you the bottom line: concise results in plain English.</p>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div>
-          <div>
+          <div class="w-100 d-none d-md-block d-lg-none"><!-- wrap every 3 on md--></div>
+          <div class="card mb-4">
+            <div class="card-body">
               <img class="icon" src="https://via.placeholder.com/155">
-              <h3>Optimisation</h3>
+              <h4 class="card-title">Optimisation</h4>
               <hr>
+              <div class="card-text">
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div>
-          <div>
+          <div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
+          <div class="w-100 d-none d-lg-block"><!-- wrap every 4 on xl--></div>
+          <div class="card mb-4">
+            <div class="card-body">
               <img class="icon" src="https://via.placeholder.com/155">
-              <h3>Simulation</h3>
+              <h4 class="card-title">Simulation</h4>
               <hr>
+              <div class="card-text">
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div>
-          <div>
+          <div class="card mb-4">
+            <div class="card-body">
               <img class="icon" src="https://via.placeholder.com/155">
-              <h3>Automated Reporting</h3>
+              <h4 class="card-title">Automated Reporting</h4>
               <hr>
+              <div class="card-text">
+                <p>Generating reports by hand is mundane and error prone. We build automated reports based on your data, which can be regenerated whenever the data changes or according to a schedule.</p>
+              </div>
+            </div>
           </div>
-          <p>Generating reports by hand is mundane and error prone. We build automated reports based on your data, which can be regenerated whenever the data changes or according to a schedule.</p>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div>
-          <div>
+          <div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
+          <div class="w-100 d-none d-md-block d-lg-none"><!-- wrap every 3 on md--></div>
+          <div class="card mb-4">
+            <div class="card-body">
               <img class="icon" src="img/icon/api-and-scraping.svg">
-              <h3>API & Scraping</h3>
+              <h4 class="card-title">API & Scraping</h4>
               <hr>
+              <div class="card-text">
+                <p>Many web sites expose APIs, which allow programmatic access to their data. We can build scripts which will acquire these data.</p>
+                <p>Other sites present more of a challenge. We can write sophisticated Web Scrapers which will systematically harvest data from both static and dynamic web pages. All of this without breaking any laws or violating terms of service.</p>
+              </div>
+            </div>
           </div>
-          <p>Many web sites expose APIs, which allow programmatic access to their data. We can build scripts which will acquire these data.</p>
-
-          <p>Other sites present more of a challenge. We can write sophisticated Web Scrapers which will systematically harvest data from both static and dynamic web pages. All of this without breaking any laws or violating terms of service.</p>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div>
-          <div>
+          <div class="card mb-4">
+            <div class="card-body">
               <img class="icon" src="img/icon/data1.svg">
-              <h3>Data</h3>
+              <h4 class="card-title">Data</h4>
               <hr>
+              <div class="card-text">
+                <p>Big Data? Little Data? Doesn't matter. We're just interested in data.</p>
+                <p>From server logs to service histories, social media to sensors, spreadsheets to big databases. We'll use whatever data you have at your disposal.</p>
+                <p>We have experience with a vast variety of data types and forms. And we've learned that there's usually something interesting and useful to be found in most data.</p>
+                  <ul>
+                    <li> Cleaning and outlier Removal
+                    <li> Augmentation
+                    <li> Deduplication
+                    <li> Efficient storage
+                    <li> Curation (documenting format and contents)
+                    <li> All forms of wrangling!
+                  </ul>
+              </div>
+            </div>
           </div>
-          <p>Big Data? Little Data? Doesn't matter. We're just interested in data.</p>
-
-          <p>From server logs to service histories, social media to sensors, spreadsheets to big databases. We'll use whatever data you have at your disposal.</p>
-
-          <p>We have experience with a vast variety of data types and forms. And we've learned that there's usually something interesting and useful to be found in most data.</p>
-
-          <ul>
-            <li> Cleaning and outlier Removal
-            <li> Augmentation
-            <li> Deduplication
-            <li> Efficient storage
-            <li> Curation (documenting format and contents)
-            <li> All forms of wrangling!
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div>
-          <div>
+          <div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
+          <div class="w-100 d-none d-xl-block d-xl-none"><!-- wrap every 4 on xl--></div>
+          <div class="card mb-4">
+            <div class="card-body">
               <img class="icon" src="img/icon/analytics.svg">
-              <h3>Analytics</h3>
+              <h4 class="card-title">Analytics</h4>
               <hr>
+              <div class="card-text">
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div>
-          <div>
+          <div class="card mb-4">
+            <div class="card-body">
               <img class="icon" src="https://via.placeholder.com/155">
-              <h3>Automation</h3>
+              <h4 class="card-title">Automation</h4>
               <hr>
+              <div class="card-text">
+                <p>It doesn't make sense for your skilled employees to spend so much time doing mundane, repetitive tasks.</p>
+                <p>We believe in robust automated systems which will quietly and reliably perform these tasks, liberating your employees to concentrate on the dynamic components of your business.</p>
+              </div>
+            </div>
           </div>
-          <p>It doesn't make sense for your skilled employees to spend so much time doing mundane, repetitive tasks.</p>
-          <p>We believe in robust automated systems which will quietly and reliably perform these tasks, liberating your employees to concentrate on the dynamic components of your business.</p>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div>
-          <div>
+          <div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
+          <div class="w-100 d-none d-md-block d-lg-none"><!-- wrap every 3 on md--></div>
+          <div class="card mb-4">
+            <div class="card-body">
               <img class="icon" src="https://via.placeholder.com/155">
-              <h3>Rapid Prototyping</h3>
+              <h4 class="card-title">Rapid Prototyping</h4>
               <hr>
+              <div class="card-text">
+                <p>We achieve rapid time-to-value, assembling a Proof of Concept or draft analysis within days of data exchange.</p>
+                <p>We then iterate quickly, focusing on the most pertinent aspects of the analysis. This allows us to transform experiments and prototypes into robust and reliable data solutions.</p>
+                <p>And you have control over the process every step of the way.</p>
+              </div>
+            </div>
           </div>
-          <p>We achieve rapid time-to-value, assembling a Proof of Concept or draft analysis within days of data exchange.</p>
-          <p>We then iterate quickly, focusing on the most pertinent aspects of the analysis. This allows us to transform experiments and prototypes into robust and reliable data solutions.</p>
-          <p>And you have control over the process every step of the way.</p>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div>
-          <div>
+          <div class="card mb-4">
+            <div class="card-body">
               <img class="icon" src="img/icon/cloud-solutions.svg">
-              <h3>Cloud</h3>
+              <h4 class="card-title">Cloud</h4>
               <hr>
+              <div class="card-text">
+                <p>Maintaining your own hardware is expensive and time consuming.</p>
+                <p>We believe in shifting storage and processing onto the cloud. In doing so you'll reap these benefits:</p>
+                <ul>
+                  <li> flexibility (scales with your needs);
+                  <li> avoid capital and maintenance costs;
+                  <li> automated backup and recovery; and
+                  <li> automated software updates.
+                </ul>
+              </div>
+            </div>
           </div>
-          <p>Maintaining your own hardware is expensive and time consuming.</p>
-          <p>We believe in shifting storage and processing onto the cloud. In doing so you'll reap these benefits:</p>
-          <ul>
-            <li> flexibility (scales with your needs);
-            <li> avoid capital and maintenance costs;
-            <li> automated backup and recovery; and
-            <li> automated software updates.
-          </ul>
-        </div>
+          <div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
+          <div class="w-100 d-none d-xl-block d-xl-none"><!-- wrap every 4 on xl--></div>
       </div>
-
-      <div class="col-md-4">
-        <div>
-          <div>
-              <img class="icon" src="https://via.placeholder.com/155">
-              <h3>Open Source</h3>
-              <hr>
-          </div>
-          <p>We're passionate about working with Open Source tools. This means that the costs of expensive proprietary software are not being passed on to you.</p>
-          <p>With our consulting services, training courses and community support, we continuously encourage the adoption of Open Source tools for Data Science in corporations, academies and institutions.</p>
-        </div>
-      </div>
-
-    </div>
   </div>
 </section>
 {{ end }}
