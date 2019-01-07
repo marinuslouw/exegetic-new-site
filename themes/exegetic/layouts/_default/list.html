@@ -16,7 +16,7 @@
           Tags: {{ range . }}<a href="{{ "tags" | absURL }}/{{ . | urlize }}" class="btn btn-outline-primary btn-sm">{{ . }}</a>&nbsp;{{ end }}
           {{ end }}
 
-          {{ .Summary }}
+          {{ .Description | default .Summary }}
           {{ if .Truncated }}
           <a href="{{ .RelPermalink }}">Read more <i class="fas fa-angle-right"></i></a>
           {{ end }}
