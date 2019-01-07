@@ -1,5 +1,5 @@
 ---
-title: "Senior Data Scientist"
+title: "Data Scientist: Senior"
 draft: true
 ---
 
@@ -22,17 +22,5 @@ draft: true
 - Driven to learn and master new technologies
 - Independent and self-motivated, with good time management skills
 - Values collaboration and sharing of expertise and knowledge
-
-### Responsibilities
-
-## Data Scientist - Junior
-
-**The Role:** xxx
-
-### Qualifications
-
-- Degree in a relevant field
-- Programming experience with Python, R and SQL
-- Good presentation and communication skills
 
 ### Responsibilities
