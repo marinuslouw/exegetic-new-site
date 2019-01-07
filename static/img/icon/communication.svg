@@ -15,7 +15,7 @@
    id="svg4379"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="communication.svg">
+   sodipodi:docname="communication1.svg">
   <defs
      id="defs4381">
     <marker
@@ -41,17 +41,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.3870968"
-     inkscape:cx="43.536765"
-     inkscape:cy="77.5"
+     inkscape:zoom="2.1935484"
+     inkscape:cx="3.5604698"
+     inkscape:cy="36.366801"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="1600"
-     inkscape:window-height="872"
-     inkscape:window-x="179"
-     inkscape:window-y="1080"
+     inkscape:window-width="1920"
+     inkscape:window-height="1028"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata4384">
@@ -71,32 +71,20 @@
      id="layer1"
      transform="translate(0,-897.36216)">
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#3a5a79;stroke-width:1.3415674;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 95.810406,1022.4953 -44.468781,0 c 2.911407,-7.3974 6.564047,-11.4595 10.976462,-12.1022 l 32.085104,0 c 5.983749,1.5893 9.583799,5.2643 9.569219,12.1022"
-       id="path5960"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#3a5a79;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 114.81897,947.09436 -12.05346,0 m 12.05346,0 c 7.27317,0 13.12846,6.59104 13.12846,14.77811 l 0,29.82683 c 0,8.18708 -5.85529,14.7781 -13.12846,14.7781 l -9.71897,-0.1233 -0.23032,19.5424 -20.132578,-19.8395 -19.862655,-0.1949"
+       id="rect6141-1"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="cccssccccc" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#3a5a79;stroke-width:1.3415674;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 78.079178,1009.9709 0,-11.11719"
-       id="path5962"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#3a5a79;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 103.88467,983.3102 c 0,8.18708 -5.855291,14.77812 -13.128459,14.77812 l -16.341807,-0.19085 -24.284074,19.60993 0.08059,-19.29132 -10.029893,-0.12776 c -7.273168,0 -13.128461,-6.59104 -13.128461,-14.77812 l 0,-29.82682 c 0,-8.18708 5.855293,-14.77812 13.128461,-14.77812 l 50.575185,0 c 7.273168,0 13.128458,6.59104 13.128458,14.77812 l 0,29.82682"
+       id="rect6141"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#3a5a79;stroke-width:1.3415674;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 52.889597,948.19308 0,29.27059 c 5.216058,27.40173 45.22106,29.03753 50.942043,0 l 0,-29.41131"
-       id="path5970"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#3a5a79;stroke-width:1.3415674;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 93.843131,958.28244 0,-18.05686 c -3.512313,-17.82738 -28.073101,-16.8231 -31.275423,0 l 0,18.05686 0,18.05686 c 3.202322,16.8231 27.76311,17.82738 31.275423,0 l 0,-18.05686"
-       id="path5970-1-2"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccc" />
+       sodipodi:nodetypes="ccccccsssssc" />
     <circle
        style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#3a5a79;stroke-width:1.78875649;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path4147-1-9-8-8"
+       id="path4147-1-9-8-8-5"
        cx="77.5"
        cy="974.86218"
        r="74.105621" />
