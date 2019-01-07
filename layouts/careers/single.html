@@ -6,6 +6,28 @@
       <article>
       {{.Content}}
 
+      <h3>Requirements</h3>
+
+      <ul>
+      {{ range .Params.requirements }}
+        <li> {{ . }}</li>
+      {{ end }}
+        <!-- Common requirements. -->
+        <li> Foundation - Demonstrates ownership and accountability for data quality and code</li>
+        <li> Ownership - Able to drive projects to success, enables others, owns impact</li>
+        <li> Influence - Communicates clearly, demonstrates teamwork, and builds relationships</li>
+        <li> Enrichment - Contributes to team-building through mentorship, culture, recruiting, and diversity efforts</li>
+        <li> Works well in a remote team
+      </ul>
+
+      <h3>Responsibilities</h3>
+
+      <ul>
+      {{ range .Params.responsibilities }}
+        <li> {{ . }}</li>
+      {{ end }}
+      </ul>
+
       <h2>How to Apply</h2>
 
       <p>Send your CV and cover letter to <a href="mailto:careers@exegetic.biz?subject={{ .Title }} [Job Application]">careers@exegetic.biz</a>.</p>

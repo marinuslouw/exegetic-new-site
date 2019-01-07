@@ -7,7 +7,7 @@ draft: true
 
 **The Role:** xxx
 
-### Qualifications
+### Requirements
 
 - Degree in a relevant field
 - Programming experience with Python, R and SQL

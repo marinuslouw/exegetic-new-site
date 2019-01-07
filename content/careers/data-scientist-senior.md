@@ -7,7 +7,7 @@ draft: true
 
 **The Role:** xxx
 
-### Qualifications
+### Requirements
 
 - MSc or PhD in a relevant field
 - Experience in applying Data Science methods to Business problems
