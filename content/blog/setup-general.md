@@ -1,6 +1,6 @@
 ---
 title: "Setup: General"
-date: 2018-12-31T00:00:00+02:00
+date: 2019-01-01T00:00:00+02:00
 draft: true
 tags: ['R', 'Python']
 description: "How to get your system set up for use in our training."
@@ -27,7 +27,9 @@ Install a [recent version of R](https://cloud.r-project.org/). We recommend a ve
 
 Install a [recent version of RStudio](https://www.rstudio.com/products/rstudio/download/#download). We recommend a version >= 1.1.463.
 
-## Update Existing R Packages
+## R Packages
+
+### Update Existing R Packages
 
 Update all of your installed packages.
 
@@ -37,7 +39,7 @@ Update all of your installed packages.
 > devtools::upgrade_packages(TRUE)
 {{< /highlight >}}
 
-## Install Essential R Packages
+### Install Essential R Packages
 
 There are some packages that we'll always use. Make sure you have those installed.
 
@@ -45,7 +47,7 @@ There are some packages that we'll always use. Make sure you have those installe
 > install.packages("tidyverse")
 {{< /highlight >}}
 
-## Install Other R Packages
+### Install Other R Packages
 
 Install some other packages from CRAN.
 
@@ -62,7 +64,7 @@ Install other packages directly from GitHub.
 > devtools::install_github('yihui/xaringan', dependencies = TRUE, upgrade = "always")
 {{< /highlight >}}
 
-## Install or Update Hugo
+## Hugo
 
 Check installed version of Hugo.
 
@@ -81,3 +83,7 @@ If the version is old (< 0.52) then update.
 {{< highlight r >}}
 > blogdown::update_hugo()
 {{< /highlight >}}
+
+## Git
+
+<!-- https://arm.rbind.io/prework/github/ -->
