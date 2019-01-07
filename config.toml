@@ -6,6 +6,9 @@ googleAnalytics = "UA-40073522-2"
 
 theme = "exegetic"
 
+[permalinks]
+  blog = "/:year/:month/:title/"
+
 [taxonomies]
   category = "categories"
   subject = "subjects"
