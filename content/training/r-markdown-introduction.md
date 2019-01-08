@@ -5,6 +5,12 @@ subjects_weight: 100
 draft: true
 ---
 
+<!--
+	https://github.com/rstudio/rstudio-conf/tree/master/2017/Advanced%20R%20Markdown%20-%20Yihui%20Xie
+	https://github.com/rstudio/rstudio-conf/tree/master/2018/Multilingual_Rmarkdown--Aaron_Berg
+	https://github.com/rstudio/rstudio-conf/tree/master/2018/R_Markdown_Eight_Ways--Mine_Cetinkaya_Rundel
+-->
+
 - What is Mark(up|down)?
 	- What's different about [R Markdown](https://github.com/rstudio/rmarkdown)?
 - Why Markdown?

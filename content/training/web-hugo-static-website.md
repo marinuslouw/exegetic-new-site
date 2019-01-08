@@ -5,4 +5,5 @@ subjects_weight: 20
 draft: true
 ---
 
-## Course Description
+- Templates
+	- Debugging Templates <!-- https://gohugo.io/templates/template-debugging/ -->
