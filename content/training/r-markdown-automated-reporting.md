@@ -4,3 +4,31 @@ subjects: ['R']
 subjects_weight: 101
 draft: true
 ---
+
+Do you spend a lot of time generating reports? Do you end up regenerating tables and figures when new data become available? If so, then this course is for you!
+
+## Course Content
+
+- Introduction to R Markdown
+	- Paragraphs
+	- Headings
+	- Emphasis
+	- Lists
+	- Links
+	- Images
+- Data Ingestion
+  - Loading data from flat files
+  - Database queries
+- Data Preparation
+  - Wrangling data with [dplyr](https://github.com/tidyverse/dplyr)
+  - Pivoting data with [tidyr](https://github.com/tidyverse/tidyr)
+- Figures and Tables
+  - Generating plots with [ggplot2](https://github.com/tidyverse/ggplot2)
+  - Building tables
+- Styling Reports
+- Deploying
+  - Scheduling report generation
+
+## Prior Knowledge
+
+We assume that participants have at least some prior exposure to R, or at least to programming of some variety.
