@@ -21,8 +21,8 @@ draft: true
 	- LaTeX
 - First Markdown File
 - Markdown Structure
-	- Headings
 	- Paragraphs
+	- Headings
 	- Emphasis
 	- Lists
 	- Links
