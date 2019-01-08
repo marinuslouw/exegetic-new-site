@@ -17,4 +17,18 @@ draft: true
   - Adding a function
   - Inserting documentation
   - Building the package
+- Tests
   
+## Learning Outcomes
+
+After the course participants will be able to
+
+- set up the infrastructure for a package;
+- add functions and documentation;
+- create unit tests;
+- build the package; and
+- share the package via GitHub.
+
+## Prior Knowledge
+
+We assume that participants are familiar with R and are comfortable writing their own (short) functions.
