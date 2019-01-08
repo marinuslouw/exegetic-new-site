@@ -29,6 +29,14 @@ Do you spend a lot of time generating reports? Do you end up regenerating tables
 - Deploying
   - Scheduling report generation
 
+## Learning Outcomes
+
+After the course participants will be able to
+
+- source and prepare data
+- create an R markdown document with tables and figures
+- schedule recurring report generation.
+
 ## Prior Knowledge
 
 We assume that participants have at least some prior exposure to R, or at least to programming of some variety.
