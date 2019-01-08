@@ -39,8 +39,8 @@ Automating your reporting process will save you time and reduce errors.
 
 After the course participants will be able to
 
-- source and prepare data
-- create an R markdown document with tables and figures
+- source and prepare data;
+- create an R markdown document with tables and figures; and
 - schedule recurring report generation.
 
 ## Prior Knowledge
