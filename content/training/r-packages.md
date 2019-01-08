@@ -9,15 +9,21 @@ draft: true
 
 - Why Write R Packages?
 - A Simple Package
-  - Creating package infrastructure in RStudio
-  - The anatomy of a package
-    - `R/` and `man/`
-    - `DESCRIPTION`
-    - `NAMESPACE`
-  - Adding a function
-  - Inserting documentation
-  - Building the package
+    - Creating package infrastructure in RStudio
+    - The anatomy of a package
+        - `R/` and `man/`
+        - `DESCRIPTION`
+        - `NAMESPACE`
+    - Adding a function
+    - Inserting documentation
+    - Building the package
 - Tests
+    - The importance of tests
+    - Writing simple tests with [testthat](https://github.com/r-lib/testthat)
+    - Running tests
+    - Interpreting test results
+    - Test driven development
+    - Case Study
   
 ## Learning Outcomes
 
