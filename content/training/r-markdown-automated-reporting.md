@@ -5,7 +5,13 @@ subjects_weight: 101
 draft: true
 ---
 
-Do you spend a lot of time generating reports? Do you end up regenerating tables and figures when new data become available? If so, then this course is for you!
+<!--
+https://www.cultureofinsight.com/blog/2018/10/22/2018-08-20-automated-data-reports-with-r/
+-->
+
+Do you spend a lot of time generating reports? Do you end up regenerating tables and figures when new data become available? Is this a complicated and error-prone process? If so, then this course is for you!
+
+Automating your reporting process will save you time and reduce errors.
 
 ## Course Content
 
