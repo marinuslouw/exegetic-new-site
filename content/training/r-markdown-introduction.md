@@ -24,13 +24,17 @@ draft: true
 	- Paragraphs
 	- Headings
 	- Emphasis
-	- Lists
+	- Lists and Checkboxes
 	- Links
 	- Images
 	- Block quotes
 	- Footnotes
 - YAML Header
-- Code Blocks
+	- Output formats
+- Code
+	- Code blocks
+	- Including code and/or output (or neither!)
+	- Inline code
 - Generating References and a Bibliography
 - Topics:
 	- Presentations
