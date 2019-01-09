@@ -8,17 +8,26 @@
 
       <h3>Requirements</h3>
 
+      {{ if .Params.requirements_technical }}
+      <em>Technical</em>
+
       <ul>
-      {{ range .Params.requirements }}
+      {{ range .Params.requirements_technical }}
         <li> {{ . }}</li>
       {{ end }}
-        <!-- Common requirements. -->
-        <li> Foundation - Demonstrates ownership and accountability for data quality and code</li>
-        <li> Ownership - Able to drive projects to success, enables others, owns impact</li>
-        <li> Influence - Communicates clearly, demonstrates teamwork, and builds relationships</li>
-        <li> Enrichment - Contributes to team-building through mentorship, culture, recruiting, and diversity efforts</li>
-        <li> Works well in a remote team
       </ul>
+      {{ end }}
+
+      <em>Other</em>
+
+      <ul>
+      {{ range .Params.requirements_other }}
+        <li> {{ . }}</li>
+      {{ end }}
+        <li> Works well in a remote team</li>
+      </ul>
+
+      <p class="font-italic">Non-essential but nice to have requirements are indicated by a *.</p>
 
       <h3>Responsibilities</h3>
 
