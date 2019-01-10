@@ -1,5 +1,5 @@
 ---
-title: "Data Scientist: Junior"
+title: "Junior Data Scientist"
 draft: true
 ---
 
