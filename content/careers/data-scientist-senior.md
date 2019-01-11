@@ -41,7 +41,7 @@ responsibilities: [
 	"Speak at meetups and conferences",
 	"Prepare the present training",
 	"Lead team and client meetings",
-	"Mentor Junior Data Scientists and support other Senior Data Scientists",
+	"Mentor Junior Data Scientists and support all colleagues",
 	"Maintain and expand expertise (stay at the leading edge!)",
 	"Assist with recruiting"
 	]
@@ -51,6 +51,6 @@ We're looking for an experienced Data Scientist. Somebody who enjoys collaborati
 
 As a Senior Data Scientist you will take responsibility for client projects, and drive them from inception to completion. You will work in a multi-disciplinary environment using a range of contemporary and bleeding edge Data Science tools and technologies.
 
-<p class="lead">30% Scientist : 30% Software Engineer : 40% Hacker.</p>
+<p class="lead">30% Scientist : 30% Software Engineer : 40% Hacker</p>
 
 Why so much hacker? Being a Data Scientist is all about building things. A Data Scientist regularly has to take a selection of disparate components and mash them together in creative ways to make something beautiful and useful.
