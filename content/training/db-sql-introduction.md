@@ -12,7 +12,9 @@ https://www.datacamp.com/courses/intro-to-sql-for-data-science
 https://www.pluralsight.com/courses/introduction-to-sql
 -->
 
-## Data Query
+## Course Description
+
+### Data Query
 
 Using SQL to execute queries against a Relational Database.
 
@@ -47,7 +49,7 @@ Using SQL to execute queries against a Relational Database.
 	- `EXISTS`
 	- `ANY` and `ALL`
 
-## Data Definition
+### Data Definition
 
 Using SQL to create the structure of a Relational Database.
 
@@ -71,7 +73,7 @@ Using SQL to create the structure of a Relational Database.
 	- Dropping a table
 	- Dropping a database
 
-## Data Manipulation
+### Data Manipulation
 
 Using SQL to manipulate data in a Relational Database.
 
@@ -79,7 +81,7 @@ Using SQL to manipulate data in a Relational Database.
 - `UPDATE` - Changing existing data
 - `DELETE` - Removing data
 
-## Transaction Control
+### Transaction Control
 
 Using SQL transactions to ensure database integrity and process isolation.
 
@@ -89,7 +91,7 @@ Using SQL transactions to ensure database integrity and process isolation.
 	- `SAVEPOINT`
 	- `ROLLBACK`
 
-## Users
+### Users
 
 - Creating users
 - Access control with `GRANT` and `REVOKE`

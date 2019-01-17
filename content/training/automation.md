@@ -1,6 +1,6 @@
 ---
 title: "Automation"
-subjects: ['Data Science']
+subjects: ['Data Science', 'UNIX']
 subjects_weight: 22
 draft: true
 ---
