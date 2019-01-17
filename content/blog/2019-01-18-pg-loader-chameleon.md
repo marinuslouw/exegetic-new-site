@@ -8,7 +8,7 @@ tags: ['postgresql', 'database', 'DBA', 'replication', 'mysql']
 
 ## Introduction
 
-We recently explored some tools to help us migrate and replicate from a MySQL to PostgreSQL database. The reasons for why you might want to do such a task are varied, but for us, it had to do with a project where we needed to first copy one table from a MySQL to a PostgreSQL database, and then setup a continuous replication process to have a copy on a separate server and allow for further analyses between databases/schemas on the same server, of the same type.
+We recently explored some tools to help us migrate and replicate from a MySQL to PostgreSQL database. The reasons for why you might want to do such a task are varied, but for us, it had to do with a project where we needed to first copy one table from a MySQL to a PostgreSQL database, and then setup a continuous replication process to firstly have a copy, and therefore backup, on a separate server and then allow for further analyses between databases/schemas on the same server, of the same type.
 
 This is fairly straightforward if your databases are the same system, but what if they are heterogeneous databases, like MySQL and PostgreSQL? Can we copy from one database to the other? Can we continuously replicate from a MySQL database to a PostgreSQL database?
 
