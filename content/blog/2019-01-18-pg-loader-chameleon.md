@@ -157,17 +157,8 @@ Step up pg_chameleon!
 
 ## pg_chameleon
 
-Developed by (Federico Campoli)[http://www.pgdba.org/], pg_chameleon has it's own Twitter account and following:
+Developed by [Federico Campoli](http://www.pgdba.org/), pg_chameleon has it's own Twitter account and following:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/mysql?src=hash&amp;ref_src=twsrc%5Etfw">#mysql</a> to <a href="https://twitter.com/hashtag/postgresql?src=hash&amp;ref_src=twsrc%5Etfw">#postgresql</a> <a href="https://twitter.com/hashtag/replica?src=hash&amp;ref_src=twsrc%5Etfw">#replica</a> system <a href="https://twitter.com/hashtag/pgchameleon?src=hash&amp;ref_src=twsrc%5Etfw">#pgchameleon</a> new version 2.0.10 is out. read the instructions and upgrade!<a href="https://t.co/Z2zmDfMFDh">https://t.co/Z2zmDfMFDh</a></p>&mdash; pg_chameleon (@pg_chameleon) <a href="https://twitter.com/pg_chameleon/status/1035838871072735234?ref_src=twsrc%5Etfw">September 1, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
-{{< highlight r >}}
-# Some R code goes here.
-x <- 1
-{{< /highlight >}}
-
-## Another Heading
-
-More text.
