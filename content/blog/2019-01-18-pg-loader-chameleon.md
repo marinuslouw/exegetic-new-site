@@ -49,19 +49,18 @@ You can install pgloader directly from [apt.postgresql.org](apt.postgresql.org) 
 {{< highlight r >}}
 $ apt-get install pgloader
 {{< /highlight >}}
-
 You can also use a docker image - see details on Github repo.
 
 ### 2: Set up test databases
 
-{{< highlight r >}}
+{{< highlight sql >}}
 $ mysql -u root
 > create database mysql_test;
 > source mysql_test_data.sql
 {{< /highlight >}}
 
-{{< highlight r >}}
-psql postgres -U patrick
+{{< highlight sql >}}
+$ psql postgres -U patrick
 postgres=> CREATE DATABASE psql_test;
 {{< /highlight >}}
 
@@ -72,15 +71,15 @@ pgloader makes use of its own <i>Command Language</i> and there are two ways to 
 - use a .load command-file containing specifications in the pgloader <i>Command Language</i>.
 
 {{< highlight r >}}
-pgloader [<options>] SOURCE TARGET
-pgloader [<options>] [<command-file>]
+$ pgloader [<options>] SOURCE TARGET
+$ pgloader [<options>] [<command-file>]
 {{< /highlight >}}
 
 I opted for the second option, as it was easier to build out and iterate.
 
-Here's an example of my command file:
+Here's an example of `my_command.file.load`:
 
-```
+{{< highlight python >}}
 LOAD DATABASE
      FROM      mysql://megan:<pwd>@localhost/mysql_test
      INTO postgresql://megan:<pwd>@localhost/psql_test
@@ -108,41 +107,45 @@ INCLUDING ONLY TABLE NAMES MATCHING 'my_special_table'
 
 ALTER schema 'mysql_test' rename to 'public';
 
-```
+{{< /highlight >}}
 
 #### WITH ...
 There are several options here.
 
-I specified *include drop* as then pgloader drops all the tables in the target PostgreSQL database whose names appear in the MySQL database. This option allows you to use the same command several times in a row until you figure out all the options, starting automatically from a clean environment. Very handy! You therefore also need the option to *create tables* each time.
+I specified `include drop` as then pgloader drops all the tables in the target PostgreSQL database whose names appear in the MySQL database. This option allows you to use the same command several times in a row until you figure out all the options, starting automatically from a clean environment. Very handy! You therefore also need the option to `create tables` each time.
 
-Other options, such as *multiple readers per thread* and *concurrency* can help with performance. These are detailed in the documentation.
+Other options, such as `multiple readers per thread` and `concurrency` can help with performance. These are detailed in the documentation.
 
 #### Casting considerations
-This is probably one of the biggest benefits and features of pgloader - converting between different data types. pgloader has a number of defaults and you can specify your own casting rules. In my case, I found converting from MySQL *bigint* became numeric when unsigned, but wanted to keep as a PostgreSQL *bigint* and resolved this with the option:
+This is probably one of the biggest benefits and features of pgloader - converting between different data types. pgloader has a number of defaults and you can specify your own casting rules. In my case, I found converting from MySQL `bigint` became numeric when unsigned, but wanted to keep as a PostgreSQL `bigint` and resolved this with the option:
 
-```
+{{< highlight python >}}
 type bigint when unsigned to bigint drop typemod,
-```
+{{< /highlight >}}
 
 I found [this](https://dev.mysql.com/doc/workbench/en/wb-migration-database-postgresql-typemapping.html) to be a useful resource on MySQL website to look at the mapping between MySQL and PostgreSQL datatypes.
 
 #### Partial migration
 We were interested in copying a single MySQL table into a PostgreSQL database and therefore made use of the partial migration to include only specific tables, as explained [here](https://pgloader.readthedocs.io/en/latest/ref/mysql.html#mysql-partial-migration), with the following line:
 
-```
+{{< highlight python >}}
 INCLUDING ONLY TABLE NAMES MATCHING 'my_special_table'
-```
+{{< /highlight >}}
 
 #### Alter schema to public
 
 As described [here](https://github.com/dimitri/pgloader/issues/645), I also had to alter the schema and rename to 'public'.
+
+{{< highlight python >}}
+ALTER schema 'mysql_test' rename to 'public';
+{{< /highlight >}}
 
 ### 4: Run your .load file
 
 As specified before, execute your command file with the following:
 
 {{< highlight r >}}
-pgloader my_command_file.load
+$ pgloader my_command_file.load
 {{< /highlight >}}
 
 If it fails, you'll get a very definitive `KABOOM!` in your terminal!
