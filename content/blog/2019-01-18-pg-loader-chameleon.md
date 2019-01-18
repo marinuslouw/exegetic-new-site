@@ -60,7 +60,7 @@ $ mysql -u root
 {{< /highlight >}}
 
 {{< highlight sql >}}
-$ psql postgres -U patrick
+$ psql postgres -U megan
 postgres=> CREATE DATABASE psql_test;
 {{< /highlight >}}
 
@@ -154,7 +154,7 @@ Another useful tip is to use the option `-- dry-run`. This allows testing a .loa
 
 And when it does work, it's very exciting! You'll get an output in your terminal, showing the result. For example, in my case, to copy a table with 8 million records from a MySQL to a PotgreSQL on a remote serve took about 6 minutes. 
 
-So, we copied a table from MySQL to PostgreSQL (and pgload will definitely come into it's own hen migrating a whole database, which we didn't do here). but, what about a continuous replication from MySQL to PostgreSQL.
+So, we copied a table from MySQL to PostgreSQL (and pgloader will definitely come into it's own when migrating a whole database, which we didn't do here). But, what about a continuous replication from MySQL to PostgreSQL?
 
 Step up pg_chameleon!
 
