@@ -39,7 +39,7 @@ responsibilities: [
 	"Clean, wrangle and curate data",
 	"Build Machine Learning models, APIs, dashboards and data-driven apps",
 	"Speak at meetups and conferences",
-	"Prepare the present training",
+	"Prepare and present training",
 	"Lead team and client meetings",
 	"Mentor Junior Data Scientists and support all colleagues",
 	"Maintain and expand expertise (stay at the leading edge!)",
