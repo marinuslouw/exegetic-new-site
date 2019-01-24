@@ -37,4 +37,4 @@ As a Junior Data Scientist you will be working on a diverse range of projects. Y
 
 <p class="lead">50% Protege : 50% Hacker</p>
 
-You'll be working closely with other members of the team, who will guide your progress. You'll be exposed to a bunch of different tasks using a diverse range of tools, technologies and techniques.
+You'll be working closely with other members of the team. You'll be exposed to a bunch of different tasks using a diverse range of tools, technologies and techniques.
