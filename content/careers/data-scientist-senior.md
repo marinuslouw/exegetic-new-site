@@ -49,7 +49,7 @@ responsibilities: [
 
 We're looking for an experienced Data Scientist. Somebody who enjoys collaborating with colleagues. Somebody who is hunting for new and better ways to do things. Somebody who wants to teach and learn.
 
-As a Senior Data Scientist you will take responsibility for client projects, and drive them from inception to completion. You will work in a multi-disciplinary environment using a range of contemporary and bleeding edge Data Science tools and technologies.
+As a Senior Data Scientist you will take responsibility for client projects, and drive them from inception to completion. You will work in a multidisciplinary environment using a range of contemporary and bleeding edge Data Science tools and technologies.
 
 <p class="lead">30% Scientist : 30% Software Engineer : 40% Hacker</p>
 
