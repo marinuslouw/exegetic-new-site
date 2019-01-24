@@ -25,7 +25,7 @@ responsibilities: [
 	"Clean, wrangle and curate data",
 	"Build Machine Learning models, APIs, dashboards and data-driven apps",
 	"Speak at meetups and conferences",
-	"Prepare the present training",
+	"Prepare and present training",
 	"Figure out what it means (practically) to be a Data Scientist",
 	"Massively expand your expertise"
 	]
