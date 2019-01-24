@@ -23,7 +23,7 @@ requirements_other: [
 responsibilities: [
 	"Ensure that data management systems meet client requirements and industry best practices",
 	"Implement systems to improve data reliability, efficiency and quality",
-	"Design and implement database schema",
+	"Design and implement database schemas",
 	"Deploy and administer databases",
 	"Build robust and efficient data pipelines",
 	"Create and maintain cloud infrastructure",
