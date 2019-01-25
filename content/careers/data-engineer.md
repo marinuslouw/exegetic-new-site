@@ -1,6 +1,6 @@
 ---
 title: "Data Engineer"
-draft: true
+draft: false
 requirements_technical: [
 	"Degree or Diploma in a relevant field",
 	"1+ years practical experience",

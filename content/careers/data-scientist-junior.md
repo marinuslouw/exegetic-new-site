@@ -1,6 +1,6 @@
 ---
 title: "Junior Data Scientist"
-draft: true
+draft: false
 requirements_technical: [
 	"Degree in a relevant field",
 	"Experience with Exploratory Data Analysis and visualisation",

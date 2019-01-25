@@ -1,6 +1,6 @@
 ---
 title: "Senior Data Scientist"
-draft: true
+draft: false
 requirements_technical: [
 	"MSc or PhD in a relevant field",
 	"3+ years practical experience",
