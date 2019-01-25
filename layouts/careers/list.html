@@ -6,11 +6,16 @@
       {{.Content}}
       </article>
 
+      {{ if .Paginator.Pages }}
+      <p>The following positions are currently open:</p>
       <ul>
       {{ range .Paginator.Pages.ByTitle }}
         <li> <a href="{{ .URL }}">{{.Title}}</a></li>
       {{ end }}
       </ul>
+      {{ else }}
+      <p>Unfortunately there are no open positions at present. But send your CV to <a href="mailto:careers@exegetic.biz?subject={{ .Title }} [Job Application]">careers@exegetic.biz</a>. We'll keep it on file and contact you as soon as something opens up.</p>
+      {{ end }}
     </div>
   </section>
 {{ end }}
