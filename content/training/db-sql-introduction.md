@@ -67,6 +67,8 @@ Using SQL to create the structure of a Relational Database.
 	- Default values
 - Normalisation
 - Changing table structure with `ALTER`
+	- Adding and removing columns
+	- Adding a primary key
 - Renaming a table
 - Views
 - Cleaning up

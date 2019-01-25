@@ -6,11 +6,13 @@ draft: true
 
 ## Course Description
 
-- Shared Volumes
-- Docker Network
+- Volumes
+- Networking
 	- `docker network`
-- Docker Compose
-- Docker Swarm
+- Compose
+	- Running multiple containers
+- Swarm
+	- Distributing containers
 - Kubernetes
 
 ## Prerequisites

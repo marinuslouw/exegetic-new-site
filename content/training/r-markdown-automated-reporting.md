@@ -13,6 +13,18 @@ Do you spend a lot of time generating reports? Do you end up regenerating tables
 
 Automating your reporting process will save you time and reduce errors.
 
+<!--
+1. Introduction to Markdown
+2. Creating R Markdown documents in RStudio
+    - Code chunks
+    - Code chunk options
+3. Building documents from a script
+4. Sending documents via email
+5. Automation with `cron`
+5. Case study: Automated reporting of Cryptocurrency transactions
+6. Build your own report
+-->
+
 ## Course Content
 
 - Introduction to R Markdown

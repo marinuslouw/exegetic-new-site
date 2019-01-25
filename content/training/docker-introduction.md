@@ -5,8 +5,10 @@ draft: true
 ---
 
 <!--
+https://docs.docker.com/get-started/
 https://thenewstack.io/understanding-the-docker-cache-for-faster-builds/
 https://docker-curriculum.com/
+https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b
 -->
 
 ## Course Description
@@ -42,6 +44,7 @@ https://docker-curriculum.com/
 	- `WORKDIR` - Setting the working directory
 	- `EXPOSE` - What ports are available?
 	- `CMD` - What will the image be running?
+	- Layers and the Union File System
 - Build Context
 	- `.dockerignore`
 - Sharing Images
