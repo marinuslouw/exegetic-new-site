@@ -156,7 +156,6 @@ button.subject {
 
 /* Custom */
 @media only screen and (max-width : 575px) {
-
 	#services{
 		display: none;
 	}
@@ -168,15 +167,10 @@ button.subject {
 	#contact{
 		padding-top: 0;
 	}
-
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-
-}
+@media only screen and (max-width : 480px) {}
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-
-}
+@media only screen and (max-width : 320px) {}
