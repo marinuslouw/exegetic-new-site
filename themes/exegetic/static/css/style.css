@@ -167,6 +167,14 @@ button.subject {
 		display: none;
 	}
 
+	#about{
+		padding-bottom: 10%;
+	}
+
+	#contact{
+		padding-top: 0;
+	}
+
 }
 
 /* Extra Small Devices, Phones */
