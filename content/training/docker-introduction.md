@@ -1,7 +1,7 @@
 ---
 title: "Docker: First Steps"
 subjects: ['Docker']
-draft: true
+draft: false
 ---
 
 <!--
