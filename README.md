@@ -4,8 +4,8 @@ Based on https://startbootstrap.com/template-overviews/full-slider/.
 
 ## Deployed Site
 
-<https://exegetic.netlify.com> - production
-<https://exegetic-test.netlify.com/> - development
+- <https://exegetic.netlify.com> - production
+- <https://exegetic-test.netlify.com/> - development
 
 ## Serving Site Locally
 
