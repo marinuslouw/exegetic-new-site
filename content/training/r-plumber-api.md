@@ -24,6 +24,7 @@ draft: false
   - Types of output (mostly JSON but also HTML, JPG, PNG and PDF)
   - Serving static files
   - Dealing with Errors
+- Documentation
 - Security
 - Deploying an API
   - DigitalOcean and AWS

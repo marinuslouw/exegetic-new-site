@@ -1,7 +1,7 @@
 ---
 title: "Docker: First Steps"
 subjects: ['Docker']
-draft: true
+draft: false
 ---
 
 <!--
@@ -51,10 +51,10 @@ https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-v
 	- [Dockerhub](https://hub.docker.com/)
 	- `docker push` - publishing images
 	- `docker search` - finding images
+- Deploying
 - Projects
 	- Static website
 	- Dynamic webapp
-- Deploying
 
 ## Prerequisites
 
