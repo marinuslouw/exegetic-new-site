@@ -6,6 +6,10 @@ googleAnalytics = "UA-40073522-2"
 
 theme = "exegetic"
 
+pygmentsCodeFences = true
+# styles: https://xyproto.github.io/splash/docs/all.html
+pygmentsStyle = "pygments"
+
 [permalinks]
   blog = "/:year/:month/:title/"
 
