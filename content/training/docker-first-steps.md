@@ -21,7 +21,7 @@ https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-v
 - Working with Images
 	- Hello World - `busybox`
 	- `docker pull` - fetch images
-	- `docker images` - list fetched images
+	- `docker images` - list images
 	- `docker run` - create a container
 		- Naming a container (`--name`)
 		- Handling cleanup (`--rm`)
@@ -47,11 +47,6 @@ https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-v
 	- Layers and the Union File System
 - Build Context
 	- `.dockerignore`
-- Sharing Images
-	- [Dockerhub](https://hub.docker.com/)
-	- `docker push` - publishing images
-	- `docker search` - finding images
-- Deploying
 - Projects
 	- Static website
 	- Dynamic webapp
