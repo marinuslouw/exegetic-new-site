@@ -23,6 +23,7 @@ Using SQL to create the structure of a Relational Database.
 - Normalisation
 - Changing table structure with `ALTER`
 	- Adding and removing columns
+	- Specifying column position (`AFTER` and `FIRST`)
 	- Adding a primary key
 - Indexes
 	- Adding an index
