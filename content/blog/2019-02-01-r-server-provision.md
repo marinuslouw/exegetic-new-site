@@ -33,7 +33,7 @@ Now [add some swap space](https://datawookie.netlify.com/blog/2015/06/amazon-ec2
 You'll want to create some user accounts.
 
 ```bash
-sudo passwd wookie
+sudo adduser wookie
 ```
 
 Provide a suitable password for the new account.
