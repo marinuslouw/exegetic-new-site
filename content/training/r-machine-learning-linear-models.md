@@ -1,7 +1,6 @@
 ---
-title: "Linear Models"
-subjects: ['R', 'Data Science']
-subjects_weight: 22
+title: "Machine Learning: Linear Models"
+subjects: ['R']
 draft: true
 ---
 
