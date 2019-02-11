@@ -11,7 +11,7 @@ pygmentsCodeFences = true
 pygmentsStyle = "pygments"
 
 [permalinks]
-  blog = "/:year/:month/:title/"
+  blog = "/blog/:year/:month/:title/"
 
 [taxonomies]
   category = "categories"
