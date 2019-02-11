@@ -1,6 +1,8 @@
 ---
 title: "Machine Learning: Linear Models"
 subjects: ['R']
+topic: true
+subjects_weight: 22
 draft: true
 ---
 
