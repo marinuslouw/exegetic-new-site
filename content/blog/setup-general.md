@@ -3,6 +3,7 @@ title: "Setup: General"
 date: 2019-01-01T00:00:00+02:00
 draft: true
 tags: ['R', 'Python']
+url: "/blog/setup-general/"
 description: "How to get your system set up for use in our training."
 ---
 
