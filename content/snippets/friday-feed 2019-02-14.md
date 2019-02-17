@@ -117,7 +117,7 @@ This is where `dockter` comes in. [Dockter](https://github.com/stencila/dockter#
 ```
 $ dockter compile
 ```
-generates a `.Dockerfile` (notice the prefix), a `.DESCRIPTION` (a package description file for the required R packages) and a `.envrion.jsonld` (a JSON-LD document containing structure meta-data on your project and all of its dependencies). It should be noted that these files are invisible and but can be viewed with `ctrl+h` (in Ubuntu). _Dockter_ makes our lives easier and allows us to truly containerize without having to be experts in creating the environment for the package. Once we have called `dockter compile` we call:
+generates a `.Dockerfile` (notice the prefix), a `.DESCRIPTION` (a package description file for the required R packages) and a `.envrion.jsonld` (a JSON-LD document containing structure meta-data on your project and all of its dependencies). It should be noted that these files are invisible but can be viewed with `ctrl+h` (in Ubuntu). _Dockter_ makes our lives easier and allows us to truly containerize without having to be experts in creating the environment for the package. Once we have called `dockter compile` we call:
 ```
 dockter build 
 ```
