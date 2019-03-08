@@ -1,5 +1,6 @@
 ---
 title: "Building R Packages"
+topic: true
 subjects: ['R']
 subjects_weight: 24
 draft: true

@@ -1,6 +1,8 @@
 ---
 title: "Docker for Data Science"
+topic: true
 subjects: ['Docker', 'Data Science']
+subjects_weight: 2
 draft: true
 ---
 

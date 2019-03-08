@@ -1,5 +1,5 @@
 ---
-title: "Markdown: Introduction"
+title: "Markdown"
 topic: true
 subjects: ['R']
 subjects_weight: 100
@@ -50,49 +50,6 @@ https://github.com/rstudio-education/intro-shiny-rmarkdown
 	- Writing a Book with [bookdown](https://github.com/rstudio/bookdown)
 	- Creating a Blog with [blogdown](https://github.com/rstudio/blogdown)
 	- Making Interactive Tutorials with [learnr](https://github.com/rstudio/learnr)
-
-### Automated Reporting
-
-<!--
-https://www.cultureofinsight.com/blog/2018/10/22/2018-08-20-automated-data-reports-with-r/
--->
-
-<!--
-1. Introduction to Markdown
-2. Creating R Markdown documents in RStudio
-    - Code chunks
-    - Code chunk options
-3. Building documents from a script
-4. Sending documents via email
-5. Automation with `cron`
-5. Case study: Automated reporting of Cryptocurrency transactions
-6. Build your own report
--->
-
-Do you spend a lot of time generating reports? Do you end up regenerating tables and figures when new data become available? Is this a complicated and error-prone process? If so, then this course is for you!
-
-Automating your reporting process will save you time and reduce errors.
-
-- Data Ingestion
-  - Loading data from flat files
-  - Database queries
-- Data Preparation
-  - Wrangling data with [dplyr](https://github.com/tidyverse/dplyr)
-  - Pivoting data with [tidyr](https://github.com/tidyverse/tidyr)
-- Figures and Tables
-  - Generating plots with [ggplot2](https://github.com/tidyverse/ggplot2)
-  - Building tables
-- Styling Reports
-- Deploying
-  - Scheduling report generation
-
-### Dashboards
-
-- GETTING DATA
-- CREATING VISUALISATIONS (GGPLOT AND PLOTLY)
-- CREATING TABLES
-- AESTHETICS (DIALS AND STUFF)
-- DEPLOYING
 
 ## Learning Outcomes
 

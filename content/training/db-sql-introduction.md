@@ -1,5 +1,6 @@
 ---
 title: "Introduction to SQL"
+topic: true
 subjects: ['Database']
 subjects_weight: 10
 draft: false

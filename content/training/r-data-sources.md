@@ -1,9 +1,9 @@
 ---
-title: "Data Wrangling"
+title: "Data Sources"
 topic: true
 subjects: ['R']
 subjects_weight: 21
-draft: false
+draft: true
 ---
 
 <!--
@@ -49,28 +49,19 @@ draft: false
  - Hadley Wickham. [Tidy data](https://www.jstatsoft.org/index.php/jss/article/view/v059i10/v59i10.pdf). The Journal of Statistical Software, vol. 59, 2014.
 -->
 
-- Loading data from files
+This course covers a range of options for getting data into R.
+
+- Data from File
 	- CSV using base and [readr](https://github.com/tidyverse/readr)
 	- XLSX using [readxl](https://github.com/tidyverse/readxl)
 	- JSON
-- Manipulating Data Frames with [dplyr](https://github.com/tidyverse/dplyr)
-	- Selecting columns with `select()`
-	- Filtering rows with `filter()`
-	- Sorting with `arrange()`
-	- Adding and changing columns with `mutate()` and `transmute()`
-	- Aggregation with `group_by()` and `summarise()`
-	- Assorted other functions from dplyr
-- Pivoting with [tidyr](https://github.com/tidyverse/tidyr)
-	- Long versus wide data formats
-	- Going wide with `spread()`
-	- Getting long with `gather()`
-	- Splitting compound columns using `separate()` and `extract()`
-	- Explicit missing values with `complete()`
-	- Handling columns of data frames with `nest()` and `unnest()`
-- Functional programming with [purrr](https://github.com/tidyverse/purrr)
-	- Mapping functions of a single variable with `map()`
-	- Mapping to a specific data type
-	- Mapping functions of two variables with `map2()`
-	- Mapping functions with many variables using `pmap()`
-	- Leveraging side effects with `walk()`, `walk2()` and `pwalk()`
-	- Repeating with delays using `insistently()` and `slowly()`
+- Data to File
+  - CSV
+  - XLSX using [writexl](https://github.com/ropensci/writexl)
+  - JSON
+  - RDS and RDA (native R formats)
+- Relational Database
+  - SQLite
+  - MySQL
+- Graph Database
+  - [Neo4j](https://neo4j.com/) and [neo4r](https://github.com/neo4j-rstats/neo4r)

@@ -11,11 +11,8 @@ draft: true
   - ggplot
   - plotly
 - Routing with OSRM
-- Foo
-- Bar
-- Zap
 
-We'll finish by going through a list of other useful packages and providing concise examples of how each can be applied.
+We'll finish by looking at some other pertinent packages and providing concise examples of how each can be applied to spatial analyses.
 
 - Useful Packages
   - `countrycode` - for dealing with country names and codes

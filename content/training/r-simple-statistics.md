@@ -1,5 +1,6 @@
 ---
 title: "Simple Statistics with R"
+topic: true
 subjects: ['R', 'Data Science']
 subjects_weight: 22
 draft: true

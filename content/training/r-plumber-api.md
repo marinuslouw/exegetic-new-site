@@ -1,5 +1,6 @@
 ---
-title: "Building an API with R and Plumber"
+title: "Plumber: Building an API"
+topic: true
 subjects: ['R']
 subjects_weight: 120
 draft: false

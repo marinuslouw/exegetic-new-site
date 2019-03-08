@@ -1,5 +1,6 @@
 ---
 title: "R for Excel Users"
+topic: true
 subjects: ['R']
 subjects_weight: 11
 draft: true
