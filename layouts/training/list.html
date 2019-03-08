@@ -15,6 +15,11 @@
           {{ if .Draft }}
           <button type="button" class="btn btn-danger btn-sm disabled subject">Draft</button>
           {{ end }}
+          {{ if .Params.topic }}
+          <i class="fas fa-tag"></i>
+          {{ else }}
+          <i class="fas fa-list"></i>
+          {{ end }}
           <a href="{{ .URL }}">{{ .Title }}</a>
           <!-- Only include tags for other subjects. -->
           {{ range .Params.subjects }}
