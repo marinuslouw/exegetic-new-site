@@ -140,6 +140,7 @@ button.subject {
 .subject .boilerplate {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+	padding: 4rem 2rem 4rem 2rem;
 	background-color: #e9ecef;
 }
 
