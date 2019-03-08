@@ -49,7 +49,7 @@ sudo apt install r-base-core
 
 It's handy to install some R packages which will be available to all users. We could install those from source, but there's also a [repository of prebuilt packages](https://launchpad.net/~marutter/+archive/ubuntu/c2d4u) maintained by Michael Rutter.
 
-Add the PPA for the repository.
+Add the [PPA](https://itsfoss.com/ppa-guide/) for the repository.
 
 ```bash
 sudo add-apt-repository ppa:marutter/c2d4u
