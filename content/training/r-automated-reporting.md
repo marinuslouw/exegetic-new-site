@@ -1,5 +1,5 @@
 ---
-title: "Automated Reporting"
+title: "Markdown: Automated Reporting"
 topic: true
 subjects: ['R']
 subjects_weight: 100
