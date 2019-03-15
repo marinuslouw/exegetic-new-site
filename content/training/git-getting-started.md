@@ -11,6 +11,7 @@ draft: false
 	- Version control systems
 	- Git
 - Setting Up Git
+	- `git config` --- creating an identity
 - Creating a Repository
 	- `git init`
 	- Quick tour of `.git` folder
