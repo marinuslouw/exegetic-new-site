@@ -15,16 +15,16 @@ draft: false
 	- `git init`
 	- Quick tour of `.git` folder
 - Committing to the Repository
-	- `git add`: The staging area
-	- `git commit`
+	- `git add` --- adding files to the staging area
+	- `git commit` --- moving files from the staging area to the repository
 	- `git status`
 	- Ignoring files with `.gitignore`
 - Tracking Changes
-	- `git log`
+	- `git log` --- browse commit messages
 	- `git diff`
 - Retrieving from the Repository
 	- `git checkout`
-	- Using hashes to retrieve specific commits
+		- Commit hashes
 - Branches
 	- Creating a branch
 	- Switching between branches
