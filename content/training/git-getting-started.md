@@ -32,8 +32,9 @@ draft: false
 	- Merge conflicts
 	- Deleting a branch
 - Remote Repository
-	- `git remote`
+	- `git remote` --- adding and removing a remote
 	- `git push`
 - Cloning a Remote Repository
 	- `git clone`
 	- `git pull`
+	- `git fetch`
