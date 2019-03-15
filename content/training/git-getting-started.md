@@ -25,7 +25,7 @@ draft: false
 	- `git diff`
 - Retrieving from the Repository
 	- `git checkout`
-		- Commit hashes
+	- Referencing commit using a hash
 - Branches
 	- Creating a branch
 	- Switching between branches
