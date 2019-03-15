@@ -9,7 +9,7 @@ draft: false
 
 - Why Version Control?
 	- Version control systems
-	- Git
+	- Git: A short history
 - Setting Up Git
 	- `git config` --- creating an identity
 - Creating a Repository
