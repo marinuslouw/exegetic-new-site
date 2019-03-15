@@ -27,10 +27,10 @@ draft: false
 	- Using hashes to retrieve specific commits
 - Branches
 	- Creating a branch
-	- Working on a branch
-	- Merging a branch
 	- Switching between branches
+	- Merging a branch
 	- Merge conflicts
+	- Deleting a branch
 - Remote Repository
 	- `git remote`
 	- `git push`
