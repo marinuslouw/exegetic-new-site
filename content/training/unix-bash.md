@@ -14,6 +14,7 @@ draft: true
 	- `#!/bin/bash`
 	- Arguments, `$*` and `$@`
 	- Variables
+	- Strings: `''` and `""`
 	- Comments and style
 	- Control structures
 	- Here document
