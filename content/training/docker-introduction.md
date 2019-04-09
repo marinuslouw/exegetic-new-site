@@ -52,9 +52,12 @@ https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-v
 	- `docker push` - publishing images
 	- `docker search` - finding images
 - Deploying
+
+<!--
 - Projects
 	- Static website
 	- Dynamic webapp
+-->
 
 ## Prerequisites
 

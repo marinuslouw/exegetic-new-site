@@ -34,7 +34,12 @@ draft: false
 	- Deploying application on cluster
 - Kubernetes
 	- Introduction
+
+<!--
 - Projects
 	- Django/MySQL application using Docker Compose
+-->
 
 ## Prerequisites
+
+In order for this course to make sense you should first complete the [Docker: First Steps]({{< ref "docker-introduction.md" >}}) course.
