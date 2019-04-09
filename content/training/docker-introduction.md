@@ -11,6 +11,10 @@ https://docker-curriculum.com/
 https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b
 -->
 
+Docker is a tool which makes it easier to create, deploy and run applications using containers. A container encapsulates a complete execution environment. As a result the container can be run on any hardware or operating system that supports Docker.
+
+This course will teach you everything that you need to know to start using Docker.
+
 ## Course Description
 
 - What is Docker?
@@ -31,10 +35,6 @@ https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-v
 	- `docker stop` - stop running containers
 	- `docker rm` - delete stopped containers
 	- `docker rmi` - delete images we no longer need
-- Building an Image
-	- `docker pull` - build an image
-	- Caching
-	- Cleaning up temporary files
 - Writing a Dockerfile
 	- `FROM` - Specifying the base image
 	- Tags
@@ -45,13 +45,11 @@ https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-v
 	- `EXPOSE` - What ports are available?
 	- `CMD` - What will the image be running?
 	- Layers and the Union File System
-- Build Context
-	- `.dockerignore`
-- Sharing Images
-	- [Dockerhub](https://hub.docker.com/)
-	- `docker push` - publishing images
-	- `docker search` - finding images
-- Deploying
+- Building an Image
+	- `docker build` - build an image
+	- Caching
+	- Cleaning up temporary files
+	- The build context and `.dockerignore`
 
 <!--
 - Projects

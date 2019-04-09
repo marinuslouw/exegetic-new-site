@@ -9,6 +9,8 @@ draft: false
 	More about layers: https://medium.com/@jessgreb01/digging-into-docker-layers-c22f948ed612
 -->
 
+This course builds on the [Docker: First Steps]({{< ref "docker-introduction.md" >}}) course, introducing a selection of new topics which will take your Docker skills to the next level.
+
 ## Course Description
 
 - Dockerfile Revisited
@@ -27,13 +29,16 @@ draft: false
 - Compose
 	- Running multiple containers
 	- Compose file syntax
+	- Ports, volumes and links
 	- Commands and flags
 - Swarm
 	- Distributing containers
 	- Setup
-	- Deploying application on cluster
+	- Deploying application on a cluster
+<!--
 - Kubernetes
 	- Introduction
+-->
 
 <!--
 - Projects
