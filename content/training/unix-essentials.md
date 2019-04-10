@@ -3,7 +3,7 @@ title: "UNIX Essentials"
 topic: true
 subjects: ['UNIX']
 subjects_weight: 1
-draft: true
+draft: false
 ---
 
 This course will be based on BASH in a Linux environment, but most of it will port well to other shells and flavours of UNIX.

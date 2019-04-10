@@ -64,8 +64,6 @@ This course will teach you everything that you need to know to start using Docke
 
 1. Follow [these instructions](https://docs.docker.com/install/) to install Docker.
 2. Create accounts on the following services:
-
-- [AWS](http://aws.amazon.com/) and
-- [Docker Hub](https://hub.docker.com/).
-
-3. The [UNIX Essentials]({{< relref "unix-essentials.md" >}}) course is useful for understanding some of the details of a Dockerfile.
+    - [AWS](http://aws.amazon.com/) and
+    - [Docker Hub](https://hub.docker.com/).
+3. The [UNIX Essentials]({{< ref "unix-essentials.md" >}}) course is useful for understanding some of the details of a Dockerfile.
