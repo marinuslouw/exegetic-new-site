@@ -68,4 +68,4 @@ This course will teach you everything that you need to know to start using Docke
 - [AWS](http://aws.amazon.com/) and
 - [Docker Hub](https://hub.docker.com/).
 
-3. The [UNIX Essentials]({{< ref "unix-essentials.md" >}}) course is useful for understanding some of the details of a Dockerfile.
+3. The [UNIX Essentials]({{< relref "unix-essentials.md" >}}) course is useful for understanding some of the details of a Dockerfile.
