@@ -9,12 +9,14 @@ draft: false
 	More about layers: https://medium.com/@jessgreb01/digging-into-docker-layers-c22f948ed612
 -->
 
-This course builds on the [Docker: First Steps]({{< ref "docker-introduction.md" >}}) course, introducing a selection of new topics which will take your Docker skills to the next level.
+This course builds on the [Docker: First Steps]({{< ref "docker-first-steps.md" >}}) course, introducing a selection of new topics which will take your Docker skills to the next level.
 
 ## Course Description
 
 - Dockerfile Revisited
 	- Best practices
+- Debugging
+	- Getting "inside" an image
 - Volumes
 	- Sharing data
 - Networking
@@ -47,4 +49,4 @@ This course builds on the [Docker: First Steps]({{< ref "docker-introduction.md"
 
 ## Prerequisites
 
-In order for this course to make sense you should first complete the [Docker: First Steps]({{< ref "docker-introduction.md" >}}) course.
+In order for this course to make sense you should first complete the [Docker: First Steps]({{< ref "docker-first-steps.md" >}}) course.

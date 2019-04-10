@@ -41,7 +41,9 @@ This course will teach you everything that you need to know to start using Docke
 	- Tags
 	- `COPY` - Copying things to the image
 	- `ADD` - Another way to get stuff onto the image
-	- `RUN` - Executing software on the image
+	- `RUN` - Executing processes on the image
+		- Using `apt` to add software
+		- Asserting non-interactive mode
 	- `WORKDIR` - Setting the working directory
 	- `EXPOSE` - What ports are available?
 	- `CMD` - What will the image be running?

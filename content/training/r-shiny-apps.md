@@ -18,7 +18,16 @@ https://github.com/rstudio-education/intro-shiny-rmarkdown
 https://shiny.rstudio.com/articles/debugging.html
 -->
 
-Shiny is a package for building interactive web apps with R. The apps can be hosted as standalone webpages or embedded in a markdown document.
+The Shiny package makes it easy to create interactive web applications using R.
+
+In this workshop you will learn how to build Shiny applications from scratch. After the workshop you will:
+
+- understand the structure of a Shiny application (UI and server);
+- be able to assemble an attractive UI;
+- understand reactivity and how the UI and server communicate with each other; and
+- know how to deploy a Shiny application.
+
+## Contents
 
 - What is Shiny?
   - Samples from App Gallery
@@ -30,15 +39,16 @@ Shiny is a package for building interactive web apps with R. The apps can be hos
   - Input controls
   - Panels and tabsets
 - Server
-  - Rendering output
-  - Plots
-  - Tables
+  - Rendering output: text, plots and tables
   - `uiOutput()` for dynamic UI elements
 - Reactivity
   - `reactive()`
   - `isolate()`
   - `eventReactive()`
   - `reactiveValues()`
+- Interactive Components
+  - [DataTable](https://datatables.net/)
+  - [Leaflet](https://leafletjs.com/)
 - Debugging
 - Enhancements
   - CSS
