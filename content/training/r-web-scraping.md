@@ -1,5 +1,6 @@
 ---
-title: "Web Scraping"
+title: "Web Scraping in R"
+topic: true
 subjects: ['R', 'Web Scraping']
 subjects_weight: 130
 ---
@@ -14,7 +15,7 @@ During this course we'll scrape data from a number of sites including:
 
 - Motivating Example <!-- Private Property -->
 - Review of the Tidyverse
-	- Highlights from [Data Manipulation in the Tidyverse]({{< ref "r-data-manipulation.md" >}})
+	- Highlights from [Data Wrangling]({{< ref "r-data-wrangling.md" >}})
 - Introduction to Scraping
 	- The components of an HTML document
 	- Building a simple HTML document

@@ -1,0 +1,29 @@
+{{ define "main" }}
+  <section class="section" id="{{ .Title | urlize | lower }}">
+    <div class="container">
+      <!-- Pick up content from the category _index.md. -->
+      <h1>{{.Title}}</h1>
+      <article>
+      {{.Content}}
+      </article>
+
+      {{ range .Paginator.Pages.ByDate.Reverse }}
+      <div class="row">
+        <article>
+          <h2><a href="{{ .URL }}">{{.Title}}</a></h2>
+          <time>{{.Date.Format "2006-01-02"}}</time>
+          {{ with .Params.tags }}
+          Tags: {{ range . }}<a href="{{ "tags" | absURL }}/{{ . | urlize }}" class="btn btn-outline-primary btn-sm">{{ . }}</a>&nbsp;{{ end }}
+          {{ end }}
+
+          {{ .Description | default .Summary }}
+          {{ if .Truncated }}
+          <a href="{{ .RelPermalink }}">Read more <i class="fas fa-angle-right"></i></a>
+          {{ end }}
+        </article>
+      </div>
+      {{ end }}
+      {{- template "_internal/pagination.html" . -}}
+    </div>
+  </section>
+{{ end }}

@@ -1,17 +1,23 @@
 ---
 title: "Markdown: Automated Reporting"
+topic: true
 subjects: ['R']
-subjects_weight: 101
+subjects_weight: 100
 draft: true
 ---
 
 <!--
-https://www.cultureofinsight.com/blog/2018/10/22/2018-08-20-automated-data-reports-with-r/
+https://github.com/rstudio/rstudio-conf/tree/master/2017/Advanced%20R%20Markdown%20-%20Yihui%20Xie
+https://github.com/rstudio/rstudio-conf/tree/master/2018/Multilingual_Rmarkdown--Aaron_Berg
+https://github.com/rstudio/rstudio-conf/tree/master/2018/R_Markdown_Eight_Ways--Mine_Cetinkaya_Rundel
+https://github.com/rstudio-education/intro-shiny-rmarkdown
 -->
 
-Do you spend a lot of time generating reports? Do you end up regenerating tables and figures when new data become available? Is this a complicated and error-prone process? If so, then this course is for you!
+## Course Content
 
-Automating your reporting process will save you time and reduce errors.
+<!--
+https://www.cultureofinsight.com/blog/2018/10/22/2018-08-20-automated-data-reports-with-r/
+-->
 
 <!--
 1. Introduction to Markdown
@@ -25,15 +31,10 @@ Automating your reporting process will save you time and reduce errors.
 6. Build your own report
 -->
 
-## Course Content
+Do you spend a lot of time generating reports? Do you end up regenerating tables and figures when new data become available? Is this a complicated and error-prone process? If so, then this course is for you!
 
-- Introduction to R Markdown
-	- Paragraphs
-	- Headings
-	- Emphasis
-	- Lists
-	- Links
-	- Images
+Automating your reporting process will save you time and reduce errors.
+
 - Data Ingestion
   - Loading data from flat files
   - Database queries
@@ -44,16 +45,13 @@ Automating your reporting process will save you time and reduce errors.
   - Generating plots with [ggplot2](https://github.com/tidyverse/ggplot2)
   - Building tables
 - Styling Reports
+- Dissemination
+  - Emailing reports
+- Twitter
+- Slack
+- Telegram
 - Deploying
   - Scheduling report generation
-
-## Learning Outcomes
-
-After the course participants will be able to
-
-- source and prepare data;
-- create an R markdown document with tables and figures; and
-- schedule recurring report generation.
 
 ## Prior Knowledge
 

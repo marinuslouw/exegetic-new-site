@@ -1,5 +1,6 @@
 ---
 title: "Docker: First Steps"
+topic: true
 subjects: ['Docker']
 draft: false
 ---
@@ -10,6 +11,10 @@ https://thenewstack.io/understanding-the-docker-cache-for-faster-builds/
 https://docker-curriculum.com/
 https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b
 -->
+
+Docker is a tool which makes it easier to create, deploy and run applications using containers. A container encapsulates a complete execution environment. As a result the container can be run on any hardware or operating system that supports Docker.
+
+This course will teach you everything that you need to know to start using Docker.
 
 ## Course Description
 
@@ -31,36 +36,36 @@ https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-v
 	- `docker stop` - stop running containers
 	- `docker rm` - delete stopped containers
 	- `docker rmi` - delete images we no longer need
-- Building an Image
-	- `docker pull` - build an image
-	- Caching
-	- Cleaning up temporary files
 - Writing a Dockerfile
 	- `FROM` - Specifying the base image
 	- Tags
 	- `COPY` - Copying things to the image
 	- `ADD` - Another way to get stuff onto the image
-	- `RUN` - Executing software on the image
+	- `RUN` - Executing processes on the image
+		- Using `apt` to add software
+		- Asserting non-interactive mode
 	- `WORKDIR` - Setting the working directory
 	- `EXPOSE` - What ports are available?
 	- `CMD` - What will the image be running?
 	- Layers and the Union File System
-- Build Context
-	- `.dockerignore`
-- Sharing Images
-	- [Dockerhub](https://hub.docker.com/)
-	- `docker push` - publishing images
-	- `docker search` - finding images
-- Deploying
+- Building an Image
+	- `docker build` - build an image
+	- Caching
+	- Cleaning up temporary files
+	- The build context and `.dockerignore`
+
+<!--
 - Projects
 	- Static website
 	- Dynamic webapp
+-->
 
 ## Prerequisites
 
-Get set up for this course by creating an account on the following services:
+1. Follow [these instructions](https://docs.docker.com/install/) to install Docker.
+2. Create accounts on the following services:
 
-- [AWS](http://aws.amazon.com/)
-- [Docker Hub](https://hub.docker.com/)
+- [AWS](http://aws.amazon.com/) and
+- [Docker Hub](https://hub.docker.com/).
 
-Follow [these instructions](https://docs.docker.com/install/) to install Docker.
+3. The [UNIX Essentials]({{< ref "unix-essentials.md" >}}) course is useful for understanding some of the details of a Dockerfile.

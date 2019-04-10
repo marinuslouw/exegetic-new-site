@@ -1,7 +1,6 @@
 ---
-title: "An Introduction to R"
+title: "Machine Learning: Time Series"
 subjects: ['R']
-subjects_weight: 10
 draft: true
 ---
 

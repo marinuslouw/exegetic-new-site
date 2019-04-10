@@ -1,5 +1,6 @@
 ---
 title: "Introduction to SQL"
+topic: true
 subjects: ['Database']
 subjects_weight: 10
 draft: false
@@ -44,10 +45,6 @@ Using SQL to execute queries against a Relational Database.
 	- Why normalise?
 	- `INNER JOIN`
 	- `LEFT JOIN`, `RIGHT JOIN` and `FULL JOIN`
-- Union
-- Subqueries
-	- `EXISTS`
-	- `ANY` and `ALL`
 
 ### Data Definition
 
@@ -65,12 +62,6 @@ Using SQL to create the structure of a Relational Database.
 	- Primary and Foreign keys
 	- Auto increment
 	- Default values
-- Normalisation
-- Changing table structure with `ALTER`
-	- Adding and removing columns
-	- Adding a primary key
-- Renaming a table
-- Views
 - Cleaning up
 	- Dropping a table
 	- Dropping a database
@@ -82,18 +73,3 @@ Using SQL to manipulate data in a Relational Database.
 - `INSERT` - Putting data into tables
 - `UPDATE` - Changing existing data
 - `DELETE` - Removing data
-
-### Transaction Control
-
-Using SQL transactions to ensure database integrity and process isolation.
-
-- Why use transactions?
-- Managing transactions
-	- `COMMIT`
-	- `SAVEPOINT`
-	- `ROLLBACK`
-
-### Users
-
-- Creating users
-- Access control with `GRANT` and `REVOKE`

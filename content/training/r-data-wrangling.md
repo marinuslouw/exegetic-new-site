@@ -1,5 +1,6 @@
 ---
-title: "Data Wrangling in the Tidyverse"
+title: "Data Wrangling"
+topic: true
 subjects: ['R']
 subjects_weight: 21
 draft: false

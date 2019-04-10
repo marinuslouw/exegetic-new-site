@@ -1,5 +1,6 @@
 ---
 title: "Markdown: Dashboards"
+topic: true
 subjects: ['R']
 subjects_weight: 102
 draft: true

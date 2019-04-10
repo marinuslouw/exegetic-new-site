@@ -1,5 +1,6 @@
 ---
 title: "Markdown: Introduction"
+topic: true
 subjects: ['R']
 subjects_weight: 100
 draft: true
