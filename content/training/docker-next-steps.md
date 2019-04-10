@@ -15,13 +15,19 @@ This course builds on the [Docker: First Steps]({{< ref "docker-first-steps.md" 
 
 - Dockerfile Revisited
 	- Best practices
+	- `ENV` - Default values for environment variables
 - Debugging
 	- Getting "inside" an image
+	- `docker exec`
+	- `docker attach`
 - Volumes
 	- Sharing data
+	- Volumes on the host
+	- Named volumes
 - Networking
 	- `docker network`
 	- Network drivers
+	- Bridge, Overlay and Host network
 - Sharing Images
 	- [Docker Hub](https://hub.docker.com/)
 	- Docker Registry
