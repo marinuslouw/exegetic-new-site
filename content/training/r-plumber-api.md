@@ -1,5 +1,5 @@
 ---
-title: "Plumber: Building an API"
+title: "Plumber — Building an API"
 topic: true
 subjects: ['R']
 subjects_weight: 120

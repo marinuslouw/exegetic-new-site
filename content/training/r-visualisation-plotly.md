@@ -1,7 +1,9 @@
 ---
 title: "Visualisation with Plotly"
+topic: true
 subjects: ['R']
 draft: false
+subjects_weight: 32
 ---
 
 <!-- https://plotly-book.cpsievert.me/ -->

@@ -3,12 +3,12 @@ title: "Data Science: Introduction"
 topic: true
 subjects: ['Data Science']
 subjects_weight: 1
-draft: true
+draft: false
 ---
 
 ## Course Description
 
-This *short* course aims to answer the question "What is Data Science?". It provides a high level introduction to the important concepts.
+This *short* course aims to answer the question "What is Data Science?". It provides a high level introduction to the following:
 
 - What is Data Science?
 - Big Data: Is it all just hype?

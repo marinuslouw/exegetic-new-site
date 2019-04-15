@@ -3,7 +3,7 @@ title: "Markdown"
 topic: true
 subjects: ['R']
 subjects_weight: 100
-draft: true
+draft: false
 ---
 
 <!--
@@ -15,16 +15,10 @@ https://github.com/rstudio-education/intro-shiny-rmarkdown
 
 ## Course Content
 
-### Introduction
-
 - What is Mark(up|down)?
 	- What's different about [R Markdown](https://github.com/rstudio/rmarkdown)?
 - Why Markdown?
 	- Why not Word or Google documents?
-- Prerequisites
-	- RStudio
-	- Pandoc
-	- LaTeX
 - First Markdown File
 - Markdown Structure
 	- Paragraphs

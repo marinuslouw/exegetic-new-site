@@ -1,5 +1,5 @@
 ---
-title: "Shiny: Building Data-Driven Apps"
+title: "Shiny — Building Data-Driven Apps"
 topic: true
 subjects: ['R']
 subjects_weight: 120

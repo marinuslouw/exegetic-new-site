@@ -28,6 +28,7 @@ This course will be based on BASH in a Linux environment, but most of it will po
 	- `rm` — deleting
 	- `rmdir` and `mkdir`
 	- `chown` and `chmod` — ownership and permissions
+	- `locate` and `find` — tracking down files
 - Editor
 	- `vi`
 - File Processing
@@ -47,4 +48,7 @@ This course will be based on BASH in a Linux environment, but most of it will po
 - Shell variables
 	- `HOME`
 	- `PATH`
+- Shell customisation
+	- Prompt
+	- History
 - Scheduling

@@ -3,7 +3,7 @@ title: "Data Sources"
 topic: true
 subjects: ['R']
 subjects_weight: 21
-draft: true
+draft: false
 ---
 
 <!--
@@ -55,13 +55,16 @@ This course covers a range of options for getting data into R.
 	- CSV using base and [readr](https://github.com/tidyverse/readr)
 	- XLSX using [readxl](https://github.com/tidyverse/readxl)
 	- JSON
-- Data to File
-  - CSV
-  - XLSX using [writexl](https://github.com/ropensci/writexl)
-  - JSON
-  - RDS and RDA (native R formats)
 - Relational Database
   - SQLite
   - MySQL
 - Graph Database
   - [Neo4j](https://neo4j.com/) and [neo4r](https://github.com/neo4j-rstats/neo4r)
+
+You'll also learn about options for exporting data from R.
+
+- Data to File
+  - CSV
+  - XLSX using [writexl](https://github.com/ropensci/writexl)
+  - JSON
+  - RDS and RDA (native R formats)

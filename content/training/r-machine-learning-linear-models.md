@@ -1,9 +1,9 @@
 ---
 title: "Machine Learning: Linear Models"
-subjects: ['R']
 topic: true
-subjects_weight: 22
-draft: true
+subjects: ['R']
+subjects_weight: 42
+draft: false
 ---
 
 <!--
@@ -14,12 +14,23 @@ Learn to build a variety of Linear Models using R.
 
 ## Course Description
 
+- Background
+	- Residuals
+	- Best fit and least squares
 - Linear Regression
 	- Multiple regression
+		- Model evaluation (RMSE, [MAE](https://en.wikipedia.org/wiki/Mean_absolute_error) and [MPE](https://en.wikipedia.org/wiki/Mean_percentage_error))
+		- Categorical and dummy variables
+		- Interactions
 	- Polynomial regression
 - Generalised Linear Models
 	- Logistic regression
+		- Thresholding and classification
+		- Beyond binary: One-versus-rest models
+		- Model evaluation
 	- Poisson regression
+- Regularisation
+	- Lasso and Ridge Regression
 - Generalized Additive Models
 - Mixed Effects Models
 - Validating Model Assumptions

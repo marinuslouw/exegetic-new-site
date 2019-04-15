@@ -1,9 +1,11 @@
 ---
-title: "Web Scraping in R"
+title: "Web Scraping"
 topic: true
 subjects: ['R', 'Web Scraping']
 subjects_weight: 130
 ---
+
+There's a wealth of data available on the internet which can be used for data augmentation or to create entirely new datasets. In this course you'll learn how to use R to selectively scrape content from websites.
 
 During this course we'll scrape data from a number of sites including:
 
@@ -11,7 +13,7 @@ During this course we'll scrape data from a number of sites including:
 - browser market share from [StatCounter](http://gs.statcounter.com/browser-market-share);
 - weather data from [Weather Underground](https://www.wunderground.com/).
 
-### Day 1
+### Part 1
 
 - Motivating Example <!-- Private Property -->
 - Review of the Tidyverse
@@ -40,7 +42,7 @@ During this course we'll scrape data from a number of sites including:
 	- Case Study
 - Assisted Assignment <!-- IMDB -->
 
-### Day 2
+### Part 2
 
 - Case Study <!-- drug tests using rvest -->
 - Interacting with APIs

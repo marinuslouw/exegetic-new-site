@@ -1,7 +1,9 @@
 ---
-title: "Visualisation with ggplot2 and plotly"
+title: "Visualisation with ggplot2"
+topic: true
 subjects: ['R']
 draft: false
+subjects_weight: 32
 ---
 
 The [ggplot2](https://github.com/tidyverse/ggplot2) package has become the *de facto* standard for making plots in R. It's possible to quickly put together a simple plot for exploratory purposes. However, with a bit of effort such a plot can be transformed into a work of art.

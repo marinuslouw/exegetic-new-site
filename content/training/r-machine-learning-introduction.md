@@ -6,3 +6,9 @@ draft: true
 ---
 
 ## Course Description
+
+- Model Optimisation
+	- Underfitting and Overfitting
+- Transformations
+	- `log()` and `sqrt()`
+	- Box-Cox
