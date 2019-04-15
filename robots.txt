@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: content/snippets/
+Sitemap: https://www.exegetic.biz/sitemap.xml
