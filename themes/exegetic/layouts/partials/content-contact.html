@@ -14,7 +14,10 @@
           </div>
           <div class="col-md-6">
             <div class="content mt-100">
-<form name="contact" method="POST" netlify>
+<form name="contact" method="POST" netlify-honeypot="bot-field" netlify>
+  <p class="u-visually-hidden">
+    <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+  </p>
   <label>What is your name?
     <input name="full-name" type="text" placeholder="Your full name" required>
   </label>
