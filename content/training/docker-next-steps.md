@@ -11,7 +11,7 @@ draft: false
 
 This course builds on the [Docker: First Steps]({{< ref "docker-first-steps.md" >}}) course, introducing a selection of new topics which will take your Docker skills to the next level.
 
-## Course Description
+## Contents
 
 - Dockerfile Revisited
 	- Best practices
@@ -43,15 +43,14 @@ This course builds on the [Docker: First Steps]({{< ref "docker-first-steps.md" 
 	- Distributing containers
 	- Setup
 	- Deploying application on a cluster
-<!--
+
+{{< comment >}}
 - Kubernetes
 	- Introduction
--->
 
-<!--
 - Projects
 	- Django/MySQL application using Docker Compose
--->
+{{< /comment >}}
 
 ## Prerequisites
 
