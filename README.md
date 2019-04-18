@@ -1,5 +1,12 @@
 Based on https://startbootstrap.com/template-overviews/full-slider/.
 
+## Deploying (Production)
+
+Set the following environment variables:
+
+- `HUGO_ENV` = `production`
+- `HUGO_VERSION` = `0.42`
+
 ## Deployed Site
 
 - <https://exegetic.netlify.com> - production
