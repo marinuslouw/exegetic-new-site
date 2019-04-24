@@ -32,15 +32,15 @@ filename = "sitemap.xml"
   [params.about]
     [params.about.image]
       path = "img/exegetic-logo.svg"
-      alt = "Watch"
+      alt = "Exegetic Analytics"
   [params.what]
     [params.what.image]
       path = "img/exegetic-logo.svg"
-      alt = "Watch"
+      alt = "Exegetic Analytics"
   [params.how]
     [params.how.image]
       path = "img/exegetic-logo.svg"
-      alt = "Watch"
+      alt = "Exegetic Analytics"
   [params.clients]
     [params.clients.image]
       path = "https://via.placeholder.com/300"
