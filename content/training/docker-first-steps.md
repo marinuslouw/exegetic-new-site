@@ -23,7 +23,7 @@ This course will teach you everything that you need to know to start using Docke
 	- Docker versus VMWare and VirtualBox
 	- Images and Containers
 	- Daemon and Client
-- Working with Images
+- Using Images
 	- Hello World - `busybox`
 	- `docker pull` - fetch images
 	- `docker images` - list fetched images
@@ -44,6 +44,7 @@ This course will teach you everything that you need to know to start using Docke
 	- `RUN` - Executing processes on the image
 		- Using `apt` to add software
 		- Asserting non-interactive mode
+	- `USER` - Which user?
 	- `WORKDIR` - Setting the working directory
 	- `EXPOSE` - What ports are available?
 	- `CMD` - What will the image be running?

@@ -8,7 +8,7 @@ draft: false
 
 A Time Series model allows you to make predictions about the future based on observations from the past. These models have important applications in science, industry and commerce.
 
-## Course Description
+## Contents
 
 - Introduction
 	- Creating time series objects

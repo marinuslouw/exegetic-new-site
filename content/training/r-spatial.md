@@ -11,6 +11,7 @@ draft: true
   - ggplot
   - plotly
 - Routing with OSRM
+- KML
 
 We'll finish by looking at some other pertinent packages and providing concise examples of how each can be applied to spatial analyses.
 
