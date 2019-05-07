@@ -15,20 +15,23 @@ Further instructions for specific platforms can be found at the following pages:
 - [Mac]({{< ref "setup-mac.md" >}}) and
 - [Linux]({{< ref "setup-linux.md" >}}).
 
-## Install R
 
-Install a [recent version of R](https://cloud.r-project.org/). We recommend a version >= R 3.6.0 "Planting of a Tree".
+## 1. R and RStudio setup
+
+### 1.1 Install R
+
+Install a [recent version of R](https://cloud.r-project.org/). We recommend a version >= R 3.5.1 "Feather Spray".
 
 {{< highlight r >}}
 > getRversion()
-[1] ‘3.6.0’
+[1] ‘3.5.1’
 {{< /highlight >}}
 
-## Install RStudio
+### 1.2 Install RStudio
 
-Install a [recent version of RStudio](https://www.rstudio.com/products/rstudio/download/#download). We recommend a version >= RStudio 1.2.1335.
+Install a [recent version of RStudio](https://www.rstudio.com/products/rstudio/download/#download). We recommend a version >= RStudio 1.1.463.
 
-## R Packages
+### 1.3 R Packages
 
 #### Update Existing R Packages
 
@@ -65,6 +68,6 @@ Install other packages directly from GitHub.
 > devtools::install_github('yihui/xaringan', dependencies = TRUE, upgrade = "always")
 {{< /highlight >}}
 
-## Git
+## 2. Git
 
 <!-- https://arm.rbind.io/prework/github/ -->

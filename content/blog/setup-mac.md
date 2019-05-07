@@ -7,13 +7,13 @@ url: "/blog/setup-mac/"
 description: "Setup instructions for a Mac system."
 ---
 
-Below are the setup instructions for the various bits of software we use in our training courses for user on a Mac system. 
+Below are the setup instructions for the various bits of software we use in our training courses for user on a Mac system. Once you are finished installing R and RStudio, please go back to [Setup: General ]({{< ref "setup-general.md" >}}) to continue with **step 1.3**.
 
-## Brief Overview: R and RStudio setup
+## 1. R and RStudio setup
 
 RStudio is the Integrated Development Environment (IDE) for R, a programming languange. It is thus the face of R and so to setup RStudio, we will be downloading both R and RStudio, starting with R.
 
-## Setup instructions: R and RStudio
+### Setup instructions: R and RStudio
 
 ##### If you don't have R and RStudio installed
 
@@ -22,3 +22,7 @@ RStudio is the Integrated Development Environment (IDE) for R, a programming lan
  - Go to [RStudio's download page](https://www.rstudio.com/products/rstudio/download/#download).
  - Under **Installers for Supported Platforms** click and download the *Mac OS version* of RStudio.
  - Run, install and open RStudio.
+
+##### Troubleshooting
+If you are still struggling then go visit [this](https://medium.com/@GalarnykMichael/install-r-and-rstudio-on-mac-e911606ce4f4) handy tutorial.
+
