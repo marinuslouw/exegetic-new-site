@@ -17,20 +17,20 @@ Further instructions for specific platforms can be found at the following pages:
 
 ## Install R
 
-Install a [recent version of R](https://cloud.r-project.org/). We recommend a version >= 3.5.1 "Feather Spray".
+Install a [recent version of R](https://cloud.r-project.org/). We recommend a version >= R 3.6.0 "Planting of a Tree".
 
 {{< highlight r >}}
 > getRversion()
-[1] ‘3.5.1’
+[1] ‘3.6.0’
 {{< /highlight >}}
 
 ## Install RStudio
 
-Install a [recent version of RStudio](https://www.rstudio.com/products/rstudio/download/#download). We recommend a version >= 1.1.463.
+Install a [recent version of RStudio](https://www.rstudio.com/products/rstudio/download/#download). We recommend a version >= RStudio 1.2.1335.
 
 ## R Packages
 
-### Update Existing R Packages
+#### Update Existing R Packages
 
 Update all of your installed packages.
 
@@ -40,7 +40,7 @@ Update all of your installed packages.
 > devtools::upgrade_packages(TRUE)
 {{< /highlight >}}
 
-### Install Essential R Packages
+#### Install Essential R Packages
 
 There are some packages that we'll always use. Make sure you have those installed.
 
@@ -48,7 +48,7 @@ There are some packages that we'll always use. Make sure you have those installe
 > install.packages("tidyverse")
 {{< /highlight >}}
 
-### Install Other R Packages
+#### Install Other R Packages
 
 Install some other packages from CRAN.
 
@@ -63,26 +63,6 @@ Install other packages directly from GitHub.
 {{< highlight r >}}
 > devtools::install_github('rstudio/blogdown', dependencies = TRUE, upgrade = "always")
 > devtools::install_github('yihui/xaringan', dependencies = TRUE, upgrade = "always")
-{{< /highlight >}}
-
-## Hugo
-
-Check installed version of Hugo.
-
-{{< highlight r >}}
-> blogdown::hugo_version()
-{{< /highlight >}}
-
-If Hugo was not found on your system (`Error: hugo not found`) then install.
-
-{{< highlight r >}}
-> blogdown::install_hugo()
-{{< /highlight >}}
-
-If the version is old (< 0.52) then update.
-
-{{< highlight r >}}
-> blogdown::update_hugo()
 {{< /highlight >}}
 
 ## Git
