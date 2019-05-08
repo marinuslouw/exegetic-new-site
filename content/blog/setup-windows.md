@@ -7,19 +7,21 @@ url: "/blog/setup-windows/"
 description: "Setup instructions for a Windows system."
 ---
 
-Below are the setup instructions for the various bits of software we use in our training courses for user on a Windows system. Once you are finished installing R and RStudio, please go back to [Setup: General ]({{< ref "setup-general.md" >}}) to continue with **step 1.3**.
+Below are the setup instructions for the various bits of software we use in our training courses. 
 
 ## 1. R and RStudio setup
 
 RStudio is the Integrated Development Environment (IDE) for R, a programming languange. It is thus the face of R and so to setup RStudio, we will be downloading both R and RStudio, starting with R.
+
+Once you are finished installing R and RStudio, please go back to [Setup: General ]({{< ref "setup-general.md" >}}) to continue with **step 1.3**.
 
 ### Setup instructions: R and RStudio
 
 ##### If you don't have R and RStudio installed
 
  - Go to the [CRAN website](https://cloud.r-project.org/bin/windows/base/) and download **R for Windows**.
- - Run and install R for Windows.
- - Go to [RStudio's download page](https://www.rstudio.com/products/rstudio/download/#download).
+ - Run and install R.
+ - Go to RStudio's [download page](https://www.rstudio.com/products/rstudio/download/#download).
  - Under **Installers for Supported Platforms** click and download the *Windows version* of RStudio.
  - Run, install and open RStudio.
 

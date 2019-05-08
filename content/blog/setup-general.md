@@ -68,6 +68,26 @@ Install other packages directly from GitHub.
 > devtools::install_github('yihui/xaringan', dependencies = TRUE, upgrade = "always")
 {{< /highlight >}}
 
-## 2. Git
+## 2. Hugo
+
+Check installed version of Hugo.
+
+{{< highlight r >}}
+> blogdown::hugo_version()
+{{< /highlight >}}
+
+If Hugo was not found on your system (`Error: hugo not found`) then install.
+
+{{< highlight r >}}
+> blogdown::install_hugo()
+{{< /highlight >}}
+
+If the version is old (< 0.52) then update.
+
+{{< highlight r >}}
+> blogdown::update_hugo()
+{{< /highlight >}}
+
+## 3. Git
 
 <!-- https://arm.rbind.io/prework/github/ -->

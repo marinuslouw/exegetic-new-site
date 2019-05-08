@@ -7,11 +7,13 @@ url: "/blog/setup-linux/"
 description: "Setup instructions for a Linux system."
 ---
 
-Below are the setup instructions for the various bits of software we use in our training courses for user on a Linux system. Once you are finished installing R and RStudio, please go back to [Setup: General ]({{< ref "setup-general.md" >}}) to continue with **step 1.3**.
+Below are the setup instructions for the various bits of software we use in our training courses. 
 
 ## 1. R and RStudio setup
 
 RStudio is the Integrated Development Environment (IDE) for R, a programming languange. It is thus the face of R and so to setup RStudio, we will be downloading both R and RStudio, starting with R.
+
+Once you are finished installing R and RStudio, please go back to [Setup: General ]({{< ref "setup-general.md" >}}) to continue with **step 1.3**.
 
 ### Setup instructions: R and RStudio
 
@@ -22,7 +24,7 @@ RStudio is the Integrated Development Environment (IDE) for R, a programming lan
  - `sudo apt-get install r-base`
  - `sudo apt-get update` 
  - Install RStudio:
- - Go to [RStudio's download page](https://www.rstudio.com/products/rstudio/download/#download).
+ - Go to RStudio's [download page](https://www.rstudio.com/products/rstudio/download/#download).
  - Under **Installers for Supported Platforms** click and download the relevant *Linux distribution* of RStudio.
  - Run and install RStudio with all the default settings.
  - Open RStudio.
