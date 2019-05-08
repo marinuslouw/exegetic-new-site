@@ -12,7 +12,7 @@ draft: false
 
 Learn to build a variety of Linear Models using R.
 
-## Course Description
+## Contents
 
 - Background
 	- Residuals

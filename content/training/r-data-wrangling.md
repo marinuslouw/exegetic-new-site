@@ -49,6 +49,8 @@ draft: false
  - Hadley Wickham. [Tidy data](https://www.jstatsoft.org/index.php/jss/article/view/v059i10/v59i10.pdf). The Journal of Statistical Software, vol. 59, 2014.
 -->
 
+## Contents
+
 - Loading data from files
 	- CSV using base and [readr](https://github.com/tidyverse/readr)
 	- XLSX using [readxl](https://github.com/tidyverse/readxl)

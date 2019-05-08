@@ -51,6 +51,10 @@ draft: false
 
 This course covers a range of options for getting data into R.
 
+You'll also learn about options for exporting data from R.
+
+## Contents
+
 - Data from File
 	- CSV using base and [readr](https://github.com/tidyverse/readr)
 	- XLSX using [readxl](https://github.com/tidyverse/readxl)
@@ -60,9 +64,6 @@ This course covers a range of options for getting data into R.
   - MySQL
 - Graph Database
   - [Neo4j](https://neo4j.com/) and [neo4r](https://github.com/neo4j-rstats/neo4r)
-
-You'll also learn about options for exporting data from R.
-
 - Data to File
   - CSV
   - XLSX using [writexl](https://github.com/ropensci/writexl)

@@ -13,7 +13,7 @@ https://github.com/rstudio/rstudio-conf/tree/master/2018/R_Markdown_Eight_Ways--
 https://github.com/rstudio-education/intro-shiny-rmarkdown
 -->
 
-## Course Content
+## Contents
 
 - What is Mark(up|down)?
 	- What's different about [R Markdown](https://github.com/rstudio/rmarkdown)?

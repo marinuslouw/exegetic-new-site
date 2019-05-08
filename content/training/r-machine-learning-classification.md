@@ -6,7 +6,7 @@ draft: false
 subjects_weight: 41
 ---
 
-## Course Description
+## Contents
 
 - k-Nearest Neighbours (kNN)
 	- How it works

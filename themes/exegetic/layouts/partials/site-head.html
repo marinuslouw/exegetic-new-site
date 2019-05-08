@@ -4,7 +4,7 @@
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
 
-        <meta name="description" content="{{ .Site.Params.description }}" />
+        <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
         <meta name="author" content="">
         <link rel="canonical" href="{{ .Site.BaseURL }}" />
 

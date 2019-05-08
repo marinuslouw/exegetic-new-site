@@ -29,13 +29,15 @@ draft: false
 - Branches
 	- Creating a branch
 	- Switching between branches
+	- `git log --graph` --- visualising branches
 	- Merging a branch
 	- Merge conflicts
 	- Deleting a branch
 - Remote Repository
+	- What's the deal with remotes?
+	- `git clone` --- cloning a Remote Repository
+	- Clone versus fork?
 	- `git remote` --- adding and removing a remote
-	- `git push`
-- Cloning a Remote Repository
-	- `git clone`
 	- `git pull`
 	- `git fetch`
+	- `git push`
