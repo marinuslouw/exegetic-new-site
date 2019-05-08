@@ -1,10 +1,10 @@
 ---
-title: "Setup: General"
+title: "R Setup – General"
 date: 2019-01-01T00:00:00+02:00
 draft: true
-tags: ['R', 'Python']
+tags: ['R']
 url: "/blog/setup-general/"
-description: "How to get your system set up for use in our training."
+description: "How to get your system set up for use in our R training."
 ---
 
 Below are the setup instructions for the various bits of software we use in our training courses.
@@ -16,9 +16,9 @@ Further instructions for specific platforms can be found at the following pages:
 - [Linux]({{< ref "setup-linux.md" >}}).
 
 
-## 1. R and RStudio setup
+## R and RStudio Setup
 
-### 1.1 Install R
+### Install R
 
 Install a [recent version of R](https://cloud.r-project.org/). We recommend a version >= R 3.5.1 "Feather Spray".
 
@@ -27,23 +27,27 @@ Install a [recent version of R](https://cloud.r-project.org/). We recommend a ve
 [1] ‘3.5.1’
 {{< /highlight >}}
 
-### 1.2 Install RStudio
+### Install RStudio
 
 Install a [recent version of RStudio](https://www.rstudio.com/products/rstudio/download/#download). We recommend a version >= RStudio 1.1.463.
 
-### 1.3 R Packages
+## R Packages
 
-#### Update Existing R Packages
+### Update Existing R Packages
 
-Update all of your installed packages.
+Update all installed packages using either
 
 {{< highlight r >}}
 > update.packages(ask = FALSE, checkBuilt = TRUE)
-# or
+{{< /highlight >}}
+
+or
+
+{{< highlight r >}}
 > devtools::upgrade_packages(TRUE)
 {{< /highlight >}}
 
-#### Install Essential R Packages
+### Install Essential R Packages
 
 There are some packages that we'll always use. Make sure you have those installed.
 
@@ -51,9 +55,9 @@ There are some packages that we'll always use. Make sure you have those installe
 > install.packages("tidyverse")
 {{< /highlight >}}
 
-#### Install Other R Packages
+### Install Other R Packages
 
-Install some other packages from CRAN.
+Install other packages from CRAN.
 
 {{< highlight r >}}
 > install.packages("flexdashboard")
@@ -61,14 +65,14 @@ Install some other packages from CRAN.
 > install.packages("bookdown")
 {{< /highlight >}}
 
-Install other packages directly from GitHub.
+Install a few packages directly from GitHub.
 
 {{< highlight r >}}
 > devtools::install_github('rstudio/blogdown', dependencies = TRUE, upgrade = "always")
 > devtools::install_github('yihui/xaringan', dependencies = TRUE, upgrade = "always")
 {{< /highlight >}}
 
-## 2. Hugo
+### Hugo
 
 Check installed version of Hugo.
 
@@ -76,7 +80,7 @@ Check installed version of Hugo.
 > blogdown::hugo_version()
 {{< /highlight >}}
 
-If Hugo was not found on your system (`Error: hugo not found`) then install.
+If Hugo was not found on your system then install using
 
 {{< highlight r >}}
 > blogdown::install_hugo()
@@ -88,6 +92,8 @@ If the version is old (< 0.52) then update.
 > blogdown::update_hugo()
 {{< /highlight >}}
 
-## 3. Git
+{{< comment >}}
+## Git
 
 <!-- https://arm.rbind.io/prework/github/ -->
+{{< /comment >}}
