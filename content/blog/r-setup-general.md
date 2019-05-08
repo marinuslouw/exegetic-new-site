@@ -11,9 +11,9 @@ Below are the setup instructions for the various bits of software we use in our 
 
 Further instructions for specific platforms can be found at the following pages:
 
-- [Windows]({{< ref "setup-windows.md" >}})
-- [Mac]({{< ref "setup-mac.md" >}}) and
-- [Linux]({{< ref "setup-linux.md" >}}).
+- [Windows]({{< ref "r-setup-windows.md" >}})
+- [Mac]({{< ref "r-setup-mac.md" >}}) and
+- [Linux]({{< ref "r-setup-linux.md" >}}).
 
 ## R & RStudio Setup
 
