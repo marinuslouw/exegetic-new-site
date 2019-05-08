@@ -26,11 +26,21 @@ Using SQL to create the structure of a Relational Database.
 	- Adding and removing columns
 	- Specifying column position (`AFTER` and `FIRST`)
 	- Adding a primary key
-- Indexes
-	- Adding an index
-	- Examining indexes
 - Renaming a table
 - Views
+
+### Performance
+
+<!-- https://dev.mysql.com/doc/refman/5.5/en/execution-plan-information.html -->
+
+- The query optimiser
+- Query plan
+- Writing better queries
+- Indexes
+	- `CREATE INDEX` – Adding an index
+	- The benefits of an index
+	- The costs of an index
+	- `DROP INDEX` – Deleting an index
 
 ### Data Manipulation
 
@@ -47,15 +57,6 @@ Using SQL transactions to ensure database integrity and process isolation.
 	- `COMMIT`
 	- `SAVEPOINT`
 	- `ROLLBACK`
-
-### Optimising Queries
-
-<!-- https://dev.mysql.com/doc/refman/5.5/en/execution-plan-information.html -->
-
-- The query optimiser
-- Generating a query plan with `EXPLAIN`
-- Interpreting a query plan
-- Writing better queries
 
 ### Users
 
