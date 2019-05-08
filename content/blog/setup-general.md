@@ -15,22 +15,25 @@ Further instructions for specific platforms can be found at the following pages:
 - [Mac]({{< ref "setup-mac.md" >}}) and
 - [Linux]({{< ref "setup-linux.md" >}}).
 
-## Install R
 
-Install a [recent version of R](https://cloud.r-project.org/). We recommend a version >= 3.5.1 "Feather Spray".
+## 1. R and RStudio setup
+
+### 1.1 Install R
+
+Install a [recent version of R](https://cloud.r-project.org/). We recommend a version >= R 3.5.1 "Feather Spray".
 
 {{< highlight r >}}
 > getRversion()
 [1] ‘3.5.1’
 {{< /highlight >}}
 
-## Install RStudio
+### 1.2 Install RStudio
 
-Install a [recent version of RStudio](https://www.rstudio.com/products/rstudio/download/#download). We recommend a version >= 1.1.463.
+Install a [recent version of RStudio](https://www.rstudio.com/products/rstudio/download/#download). We recommend a version >= RStudio 1.1.463.
 
-## R Packages
+### 1.3 R Packages
 
-### Update Existing R Packages
+#### Update Existing R Packages
 
 Update all of your installed packages.
 
@@ -40,7 +43,7 @@ Update all of your installed packages.
 > devtools::upgrade_packages(TRUE)
 {{< /highlight >}}
 
-### Install Essential R Packages
+#### Install Essential R Packages
 
 There are some packages that we'll always use. Make sure you have those installed.
 
@@ -48,7 +51,7 @@ There are some packages that we'll always use. Make sure you have those installe
 > install.packages("tidyverse")
 {{< /highlight >}}
 
-### Install Other R Packages
+#### Install Other R Packages
 
 Install some other packages from CRAN.
 
@@ -65,7 +68,7 @@ Install other packages directly from GitHub.
 > devtools::install_github('yihui/xaringan', dependencies = TRUE, upgrade = "always")
 {{< /highlight >}}
 
-## Hugo
+## 2. Hugo
 
 Check installed version of Hugo.
 
@@ -85,6 +88,6 @@ If the version is old (< 0.52) then update.
 > blogdown::update_hugo()
 {{< /highlight >}}
 
-## Git
+## 3. Git
 
 <!-- https://arm.rbind.io/prework/github/ -->
