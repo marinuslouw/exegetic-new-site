@@ -1,30 +1,31 @@
 ---
-title: "Setup: Linux"
+title: "R Setup – Linux"
 date: 2019-01-01T03:00:00+02:00
-draft: true
-tags: ['R', 'Python']
-url: "/blog/setup-linux/"
-description: "Setup instructions for a Linux system."
+draft: false
+tags: ['R']
+url: "/blog/r-setup-linux/"
+description: "Setup instructions for R on a Linux system."
 ---
 
-Below are the setup instructions for the various bits of software we use in our training courses. 
+## R & RStudio Setup
 
-## 1. R and RStudio setup
+These are instructions specific to Linux. Once you're finished installing R and RStudio, please go back to [R Setup – General]({{< ref "setup-general.md" >}}) to continue with the remaining installation.
 
-RStudio is the Integrated Development Environment (IDE) for R, a programming languange. It is thus the face of R and so to setup RStudio, we will be downloading both R and RStudio, starting with R.
+Since you're on Linux, we'll assume you're comfortable with the terminal.
 
-Once you are finished installing R and RStudio, please go back to [Setup: General ]({{< ref "setup-general.md" >}}) to continue with **step 1.3**.
+### Ubuntu
 
-### Setup instructions: R and RStudio
+ 1. Install R using
 
-##### If you don't have R and RStudio installed
+     ```
+sudo apt-get update
+sudo apt-get install r-base
+```
 
- - Since you're on some Linux distribution, I'm going to assume you're comfortable with the terminal, so here you go.
- - Install R using:
- - `sudo apt-get install r-base`
- - `sudo apt-get update` 
- - Install RStudio:
- - Go to RStudio's [download page](https://www.rstudio.com/products/rstudio/download/#download).
- - Under **Installers for Supported Platforms** click and download the relevant *Linux distribution* of RStudio.
- - Run and install RStudio with all the default settings.
- - Open RStudio.
+2. Go to [Download RStudio](https://www.rstudio.com/products/rstudio/download/#download).
+3. Under **Installers for Supported Platforms** select the appropriate *Ubuntu* version of the RStudio package.
+4. Use `dpkg` to install the package. For example
+
+    ```
+sudo dpkg -i rstudio-1.2.1335-amd64.deb
+```

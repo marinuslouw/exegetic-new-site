@@ -1,9 +1,9 @@
 ---
 title: "R Setup – General"
 date: 2019-01-01T00:00:00+02:00
-draft: true
+draft: false
 tags: ['R']
-url: "/blog/setup-general/"
+url: "/blog/r-setup-general/"
 description: "How to get your system set up for use in our R training."
 ---
 
@@ -15,8 +15,7 @@ Further instructions for specific platforms can be found at the following pages:
 - [Mac]({{< ref "setup-mac.md" >}}) and
 - [Linux]({{< ref "setup-linux.md" >}}).
 
-
-## R and RStudio Setup
+## R & RStudio Setup
 
 ### Install R
 
@@ -28,6 +27,8 @@ Install a [recent version of R](https://cloud.r-project.org/). We recommend a ve
 {{< /highlight >}}
 
 ### Install RStudio
+
+[RStudio](https://www.rstudio.com/) is the most popular Integrated Development Environment (IDE) for R.
 
 Install a [recent version of RStudio](https://www.rstudio.com/products/rstudio/download/#download). We recommend a version >= RStudio 1.1.463.
 
