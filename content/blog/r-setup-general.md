@@ -45,7 +45,7 @@ Update all installed packages using either
 or
 
 {{< highlight r >}}
-> devtools::upgrade_packages(TRUE)
+> devtools::update_packages(TRUE)
 {{< /highlight >}}
 
 ### Install Essential R Packages
