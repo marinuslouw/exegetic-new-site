@@ -20,11 +20,15 @@ draft: true
     - Building the package
 - Tests
     - The importance of tests
-    - Writing simple tests with [testthat](https://github.com/r-lib/testthat)
+    - Writing simple tests with [{testthat}](https://github.com/r-lib/testthat)
     - Running tests
     - Interpreting test results
     - Test driven development
     - Case Study
+- Distribution
+    - GitHub
+    - Creating a package website with [{pkgdown}](https://pkgdown.r-lib.org/)
+    - Testing revisited: Continuous Integration with Travis
   
 ## Learning Outcomes
 
