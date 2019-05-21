@@ -37,6 +37,7 @@ This course will teach you everything that you need to know to start using Docke
 	- `docker rm` - delete stopped containers
 	- `docker rmi` - delete images we no longer need
 - Writing a Dockerfile
+	- Layers and the Union File System
 	- `FROM` - Specifying the base image
 	- Tags
 	- `COPY` - Copying things to the image
@@ -48,7 +49,6 @@ This course will teach you everything that you need to know to start using Docke
 	- `WORKDIR` - Setting the working directory
 	- `EXPOSE` - What ports are available?
 	- `CMD` - What will the image be running?
-	- Layers and the Union File System
 - Building an Image
 	- `docker build` - build an image
 	- Caching
