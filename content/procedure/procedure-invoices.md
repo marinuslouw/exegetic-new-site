@@ -1,5 +1,5 @@
 ---
-title: "Procedure: Invoices"
+title: "Procedure – Invoices"
 draft: true
 type: admin
 ---
