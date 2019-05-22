@@ -14,7 +14,7 @@
         {{ .Hugo.Generator }}
 
         {{/* NOTE: For Production make sure you add `HUGO_ENV="production"` before your build command */}}
-        {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+        {{ if and (or (eq (getenv "HUGO_ENV") "production") (eq .Site.Params.env "production")) (not (eq .Params.type "admin"))  }}
         <META NAME="robots" CONTENT="index, follow">
         {{ template "_internal/google_analytics_async.html" . }}
         {{ else }}
