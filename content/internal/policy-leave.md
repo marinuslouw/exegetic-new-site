@@ -4,7 +4,6 @@ draft: true
 documents: ['Policy']
 ---
 
-
 ## Purpose
 
 - Accurate records of sick and annual leave are required in situations of poor performance or during a disciplinary process.
@@ -57,6 +56,5 @@ documents: ['Policy']
 - 10 years of service &xrarr; 10 days of leave
 - 15 years of service &xrarr; 15 days of leave
 
-
 2. This leave will be credited once only on the date on which the various periods of continuous service are completed.
-3. The long-service leave must be taken within one 1 year of receiving such leave.
+3. The long-service leave must be taken within one 1 year of receiving such leave.
