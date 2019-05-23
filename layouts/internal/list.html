@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <section class="section" id="{{ .Title | urlize | lower }}">
+    <div class="container">
+      <!-- Pick up content from the category _index.md. -->
+      <h1>{{.Title}}</h1>
+      <article>
+      {{.Content}}
+      </article>
+
+      {{ range $name, $taxonomy := .Site.Taxonomies.documents }}
+      <h3 id="{{ $name }}">{{ $name | humanize | title }}</h3>
+      <ul>
+      {{ range $taxonomy }}
+        <li>
+          {{ if .Draft }}
+          <button type="button" class="btn btn-danger btn-sm disabled subject">Draft</button>
+          {{ end }}
+          <a href="{{ .URL }}">{{ .Title }}</a>
+        </li>
+      {{ end }}
+      </ul>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}
