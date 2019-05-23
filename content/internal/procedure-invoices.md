@@ -1,7 +1,7 @@
 ---
 title: "Procedure – Invoices"
 draft: true
-type: admin
+documents: ['Procedure']
 ---
 
 Blah blah blah.
