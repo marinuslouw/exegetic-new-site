@@ -1,7 +1,7 @@
 ---
 title: "Policy – Timesheets"
 draft: true
-type: admin
+documents: ['Policy']
 ---
 
 Blah blah blah.

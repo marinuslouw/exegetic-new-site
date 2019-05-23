@@ -22,6 +22,7 @@ filename = "sitemap.xml"
   category = "categories"
   subject = "subjects"
   tag = "tags"
+  document = "documents"
 
 [params]
   description = "The biggest challenge to initiating and maintaining a Data Science capability is finding the right people. That's where Exegetic comes into the picture. We recognise that there are many challenges to adopting and maintaining a small and nimble Data Science team. That's why we offer a flexible and economical solution: Data Science on Demand."
