@@ -3,7 +3,7 @@ title: "Machine Learning: Time Series"
 topic: true
 subjects: ['R']
 subjects_weight: 43
-draft: true
+draft: false
 ---
 
 A Time Series model allows you to make predictions about the future based on observations from the past. These models have important applications in science, industry and commerce.
