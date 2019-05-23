@@ -36,14 +36,18 @@ Timesheet Entries:
 - Not all time logged need be “billable”. If you are doing work that does not relate to a client then log that time against Exegetic
 
 
-|Billable| Not billable|
-|:-------|:-------------|
-|meetings (online or in person)| upskilling (not related to project)|
-|emails (reading or writing)| Exegetic standups and catchups|
-|research (directly related to project)|
-|upskilling (directly related to project)|
-|travel (as approved per project) and|
-|actually working on the project!| 
+#### Billable
+
+- meetings (online or in person)
+- emails (reading or writing)
+- research (directly related to project)
+- upskilling (directly related to project)
+- travel (as approved per project) and
+- actually working on the project!
+
+#### Not billable
+- upskilling (not related to project)
+- Exegetic standups and catchups
 
 
 *Some of this might seem brutal, but bear in mind that any time you spend on the above items is time that you cannot spend doing work for another client. So it makes sense that the client is billed for that time.
