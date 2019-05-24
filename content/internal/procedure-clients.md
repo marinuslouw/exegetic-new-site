@@ -9,14 +9,10 @@ documents: ['Procedure']
 1. Trello board
 2. Slack channel
 3. GitLab repository
-4. Add Project and Client on Toggl
 5. Google Drive folder
 6. Framework
     - Data dictionary
-
-#### Timesheets & Projects
-1. Add the client to Toggl.
-2. Create the following projects:
+4. Add Client on Toggl. Create the following projects:
 
 - Meeting
     - Meetings including the client
@@ -35,10 +31,4 @@ documents: ['Procedure']
     - Working with data
 - Review
     - Independent assessment of code
-Training
 
-#### Processing Timesheets
-
-#### Generating Invoices
-
-#### Sending Invoices
