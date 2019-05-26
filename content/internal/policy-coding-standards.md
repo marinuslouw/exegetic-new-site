@@ -1,7 +1,7 @@
 ---
-title: "Coding Standards"
+title: "Policy – Coding Standards"
 draft: true
-documents: ['Procedure']
+documents: ['Policy']
 ---
 
 ## General
