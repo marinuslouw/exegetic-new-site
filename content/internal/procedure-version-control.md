@@ -10,7 +10,7 @@ documents: ['Procedure']
 - Every project should have the following branches:
     * `master`
     * `dev`
-- Feature branches should be made off `dev`.
+- Feature branches should be made off `dev`
     - From the `master` branch, switch to `dev` branch:
     ```{r}
     $ git checkout dev
@@ -46,7 +46,22 @@ documents: ['Procedure']
     ```{r}
     $ git push origin <new_feature_branch_name>
     ```
-    
+- If you have forgotten to create a feature branch and have made changes to a non-feature branch, for instance `dev`
+    - Stash your changes:
+        ```{r}
+        $ git stash
+        ```
+    - Create a new branch as detailed above
+    - Check that you are on the new branch
+        ```{r}
+    $ git status
+    ```
+    - Reapply your changes to the new branch
+    ```{r}
+    $ git stash pop
+    ```
+    - Commit your changes as detailed above
+
 - You should never have more than two feature branches active.
 
 ## Merge/Pull Requests Requests
@@ -59,7 +74,7 @@ documents: ['Procedure']
         ``` 
         - Restart your R session with
         Ctrl+Shift+F10
-- Create a merge request on [gitlab](https://gitlab.com/exegetic) or [github](https://github.com/datawookie/www-exegetic-biz)
+- Create a merge request on [Gitlab](https://gitlab.com/exegetic) or [Github](https://github.com/datawookie/www-exegetic-biz)
     - Navigate to the merge request tab 
     - Select the source branch to merged and the destination branch, which is usually develop
     - Under the "Assignee", assign the merge request to the relevant project leader
