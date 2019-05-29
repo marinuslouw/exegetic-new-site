@@ -4,6 +4,11 @@ draft: true
 documents: ['Procedure']
 ---
 
+## Repository Status
+
+- Check the status of the repository regularly.
+- Do not let untacked files accumulate. Either add them to the repository or insert an appropriate pattern into `.gitignore`.
+
 ## Branches
 
 - Manage branches using an approach roughly based on [gitflow](https://nvie.com/posts/a-successful-git-branching-model/).
