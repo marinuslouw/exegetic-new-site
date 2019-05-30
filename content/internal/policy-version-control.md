@@ -9,7 +9,8 @@ documents: ['Policy']
 - The cloud repository for all client projects must be *private* (unless explicitly stipulated otherwise by the client).
 - The cloud repository for other projects may be private or public, depending on the nature of the project.
 - Work must be pushed to the cloud repository frequently (*at least* once per day).
-- Commit messages must be informative.
+- Commit messages must be informative:
+    - "Resolved the issue where the tabpanel 'summary' would not display until a driver was selected"
 - Every repository should have a `.gitignore` file in the root folder. Additional `.gitignore` file can be added to sub-folders as required.
 
 Refer to ["Procedure – Version Control"]({{< relref "procedure-version-control.md" >}}).
