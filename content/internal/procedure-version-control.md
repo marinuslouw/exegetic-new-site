@@ -1,11 +1,11 @@
 ---
-title: "Procedure – Version Control"
+ title: "Procedure – Version Control"
 draft: true
 documents: ['Procedure']
 ---
-
+  
 ## Connecting to a remote repository
-
+  
 - To connect to repoostory, or contribute to a certain repository, create a local copy with:
 ```{r}
 $ git clone https://gitlab.com/exegetic/<repository_name>.git
@@ -37,14 +37,14 @@ $ git pull origin dev
 - Push back the local changes to the origin
 ```{r}
 $ git push origin <new_feature_branch_name>
-```
-    
+  ```
+
 ## Branches
 
 - Manage branches using an approach roughly based on [gitflow](https://nvie.com/posts/a-successful-git-branching-model/).
 - Every project should have the following branches:
-    * `master`
-    * `dev`
+* `master`
+* `dev`
 - Feature branches should be made off `dev`
     - To create a new feature branch off of `dev`, first switch to `dev` branch:
     ```{r}
@@ -62,16 +62,16 @@ $ git push origin <new_feature_branch_name>
     ```{r}
     $ git push origin <new_feature_branch_name>
     $ git branch --set-upstream-to=origin/<new_feature_branch_name> <new_feature_branch_name>
-    ```
-    
+      ```
+
 - If you have forgotten to create a feature branch and have made changes to a non-feature branch, for instance `dev`
-    - Firstly, stash your local changes:
-        ```{r}
-        $ git stash
-        ```
+    - First, stash your changes:
+    ```{r}
+    $ git stash
+    ```
     - Create a new branch as detailed above
     - Check that you are on the new branch
-        ```{r}
+    ```{r}
     $ git status
     ```
     - Reapply your changes to the new branch
@@ -85,16 +85,14 @@ $ git push origin <new_feature_branch_name>
 ## Merge requests
 
 - Code should be thoroughly tested before a request is initiated.
-    - Tests should be conducted with an *empty* environment.
-        - From RStudio terminal, clean all objects from the workspace
-        ```{r}
-        $ rm(list=list())
-        ``` 
-        - Restart your R session with
-        Ctrl+Shift+F10
+- Tests should be conducted with an *empty* environment.
+- From RStudio terminal, clean all objects from the workspace
+```{r}
+$ rm(list=list())
+``` 
+- Restart your R session with Ctrl+Shift+F10
 - Create a merge request on [Gitlab](https://gitlab.com/exegetic) or [Github](https://github.com/datawookie/www-exegetic-biz)
-    - Navigate to the merge request tab 
-    - Select the source branch to merged and the destination branch, which is usually *develop*
-    - Under the "Assignee", assign the merge request to the relevant project leader
-    
-    
+- Navigate to the merge request tab 
+- Select the source branch to merged and the destination branch, which is usually *develop*
+- Under the "Assignee", assign the merge request to the relevant project leader
+
