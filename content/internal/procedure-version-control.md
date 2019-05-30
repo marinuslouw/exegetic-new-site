@@ -1,8 +1,14 @@
 ---
- title: "Procedure – Version Control"
+title: "Procedure – Version Control"
 draft: true
 documents: ['Procedure']
 ---
+
+### Glossary
+- **Repository**: Collection of code that functions as a self-standing unit - also called a package
+- **Remote**: A common copy repository all team members use to exchange their work, *usually* hosted on a cloud service.
+- **Branch**: A copy of a repository that is built off of the main copy, with a unique name and it's own set of changes.
+- **Merge request**: A request made by a user to a repository's maintainers to incorporate the user's changes, usually presented a feature branch, into the main working branch which is usually the develop branch `dev` - also called a *Pull request* (on Github). 
   
 ## Connecting to a remote repository
   
@@ -24,10 +30,16 @@ This states the if we make any changes and "push" to the cloud repository, or th
 - To push local changes to the origin, first check the status of local files
 ```{r}
 $ git status
+On branch <branch_name>
+Changes not staged for commit:
+(use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   directory/<filename>.extension
 ```
 - Add any local changes and commit them to the staging area with a message
 ```{r}
-$ git add dir/file.extension
+$ git add directory/<filename>.extension
 $ git commit -m "Your message goes here"
 ```
 - Pull any changes from `dev` branch, so branch can be merged directly into `dev` if features are complete
@@ -37,14 +49,14 @@ $ git pull origin dev
 - Push back the local changes to the origin
 ```{r}
 $ git push origin <new_feature_branch_name>
-  ```
+```
 
 ## Branches
 
 - Manage branches using an approach roughly based on [gitflow](https://nvie.com/posts/a-successful-git-branching-model/).
 - Every project should have the following branches:
-* `master`
-* `dev`
+    * `master`
+    * `dev`
 - Feature branches should be made off `dev`
     - To create a new feature branch off of `dev`, first switch to `dev` branch:
     ```{r}
