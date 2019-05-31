@@ -8,7 +8,7 @@ documents: ['Procedure']
 ### Glossary
 - **Repository**: Collection of code that functions as a self-standing unit - also called a package.
 - **Remote**: A common copy repository all team members use to exchange their work, *usually* hosted on a cloud service.
-- **Branch**: A repository-copy that is built off of the main copy, with a unique name and it's own set of changes.
+- **Branch**: A copy of a repository, usually built off of a high-level version of a repository, than can be changed independently of other copies of the same repository. A `branch` has a unique name and it's own set of changes that can be `merged` into back into the high-level version of the repository.
 - **Merge request**: A request made by a user to a repository's maintainers to incorporate the user's changes, usually presented a feature branch, into the main working branch which is usually the develop branch `dev` - also called a *Pull request* (on Github). 
   
   
