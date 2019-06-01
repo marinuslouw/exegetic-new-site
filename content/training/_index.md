@@ -3,6 +3,7 @@ title: "Training"
 draft: false
 categories: []
 tags: []
+description: "We offer a wide range of Data Science courses. If we don't have exactly what you're after we'll tailor make something just for you!"
 ---
 
 These are the training courses we currently offer.

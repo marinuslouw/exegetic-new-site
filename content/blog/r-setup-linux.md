@@ -9,7 +9,7 @@ description: "Setup instructions for R on a Linux system."
 
 ## R & RStudio Setup
 
-These are instructions specific to Linux. Once you're finished installing R and RStudio, please go back to [R Setup – General]({{< ref "setup-general.md" >}}) to continue with the remaining installation.
+These are instructions specific to Linux. Once you're finished installing R and RStudio, please go back to [R Setup – General]({{< ref "r-setup-general.md" >}}) to continue with the remaining installation.
 
 Since you're on Linux, we'll assume you're comfortable with the terminal.
 

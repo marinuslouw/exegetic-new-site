@@ -9,7 +9,7 @@ description: "Setup instructions for R on a Windows system."
 
 ## R & RStudio Setup
 
-These are instructions specific to Windows. Once you're finished installing R and RStudio, please go back to [R Setup – General]({{< ref "setup-general.md" >}}) to continue with the remaining installation.
+These are instructions specific to Windows. Once you're finished installing R and RStudio, please go back to [R Setup – General]({{< ref "r-setup-general.md" >}}) to continue with the remaining installation.
 
  1. Go to [CRAN](https://cloud.r-project.org/bin/windows/base/).
  2. Download the installer for the latest version of R, for example `R-3.6.0-win.exe`.
