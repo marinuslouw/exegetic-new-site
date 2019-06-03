@@ -13,7 +13,7 @@ Good coding style is like correct punctuation: you can manage without it, butits
 Markdown's code policy section was compiled by taking liberally from loopback's [Markdown style guide](https://loopback.io/doc/en/contrib/Markdown-style-guide.html). Please visit the link for more guidelines and to further clarify the guidelines below.
 
 
-### Indentation, headers and whitespacezz
+### Indentation, headers and whitespaces
 
 - Markdown files don't use extra indentation.
 - Always insert an open line between a section heading and the section content.
