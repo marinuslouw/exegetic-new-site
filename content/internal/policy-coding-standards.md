@@ -13,7 +13,7 @@ Good coding style is like correct punctuation: you can manage without it, butits
 Markdown's code policy section was compiled by taking liberally from loopback's [Markdown style guide](https://loopback.io/doc/en/contrib/Markdown-style-guide.html). Please visit the link for more guidelines and to further clarify the guidelines below.
 
 
-### Indentation, headers and whitespace
+### Indentation, headers and whitespaces
 
 - Markdown files don't use extra indentation.
 - Always insert an open line between a section heading and the section content.
@@ -22,6 +22,7 @@ Markdown's code policy section was compiled by taking liberally from loopback's 
 ### Links
 
 - Always use absolute URLs, not relative URLs.
+
 ```
 # Yes: 
 [`automigrate.js`](https://github.com/strongloop/loopback-example-database/blob/postgresql/bin/automigrate.js).
@@ -51,6 +52,7 @@ Markdown's code policy section was compiled by taking liberally from loopback's 
 - Use headers to add descriptions to your scripts.
 - Start file headers on the 1st line of a script.
 - File headers can be either a short introductory description, or a template.
+
 ```
 # Script for automating notification sms'.
 ```
@@ -66,6 +68,7 @@ Markdown's code policy section was compiled by taking liberally from loopback's 
 ### Section header guidelines
 
 - Use headers to document and separate your code as it aids in the readability and interpretability of your code.
+
 ```
 # LIBRARIES ----------------------------------------------------------------------------------------
 ```
@@ -77,6 +80,7 @@ Markdown's code policy section was compiled by taking liberally from loopback's 
 - It's a worthwhile investment.
 - Don’t get carried away and comment every line of code - self-explanatory code should be left as is.
 - Each line of a comment should begin with the relevant comment symbol and a single space.
+
 ```
 # Load data from google drive.
 ```
@@ -106,6 +110,7 @@ Writing code without thinking of its architecture is useless in the same way as 
 - Generally, variable names should be nouns and function names should be verbs.
 - Strive for names that are concise and meaningful (this is not easy!).
 - Avoid abbreviations and if you have to use them make sure they are commonly understood.
+
 ```
 # Yes:
 day_one
@@ -152,6 +157,7 @@ Google's [R style guide](https://google.github.io/styleguide/Rguide.xml). Please
 
 - File names should be meaningful and end in '.R'.
 - If files need to be run in sequence, prefix them with numbers.
+
 ```
 0-download.R
 1-parse.R
@@ -164,6 +170,7 @@ Google's [R style guide](https://google.github.io/styleguide/Rguide.xml). Please
 - Place spaces around all infix operators (=, +, -, <-, etc.).
 - The same rule applies when using '=' in function calls.
 - Always put a space after a comma, and never before (just like in regular English).
+
 ```
 # Yes:
 average <- mean(feet / 12 + inches, na.rm = TRUE)
@@ -180,6 +187,7 @@ For all the use cases of how to use spaces, go to the [syntax, spacing](http://a
 - An opening curly brace should never go on its own line and should always be followed by a new line.
 - A closing curly brace should always go on its own line unless it’s followed by 'else'.
 - Always indent the code inside curly braces.
+
 ```
 if (y == 0) {
   log(x)
@@ -192,6 +200,7 @@ if (y == 0) {
 ### Assignment
 
 - Use '<-', not '=', for assignment.
+
 ```
 # Yes:
 x <- 5
@@ -207,6 +216,7 @@ x = 5
 - Never use tabs or mix tabs and spaces.
 - The only exception is if a function definition runs over multiple lines.
 - In that case, indent the second line to where the definition starts.
+
 ```
 long_function_name <- function(a = "a long argument",
                                b = "another argument",
@@ -226,6 +236,7 @@ Python's code policy section was compiled by taking liberally from the PEP 8 [Py
 
 - It is permissible to break before or after a binary operator, as long as the convention is consistent locally.
 - For new code follow the style of traditional mathematics (break before binary operations)
+
 ```
 # Yes: 
 income = (gross_wages
@@ -247,6 +258,7 @@ income = (gross_wages
 - Imports are always put at the top of the file, just after any module comments and docstrings, and before module globals and constants.
 - Imports should usually be on separate lines.
 - Absolute imports are recommended.
+
 ```
 # Yes: 
 mypkg.sibling
@@ -268,6 +280,7 @@ import sys, os
 - Names of type variables introduced in PEP 484 should normally use CapWords preferring short names.
 - 'T', 'AnyStr', 'Num'.
 - It is recommended to add suffixes '_co' or '_contra' to the variables used to declare covariant or contravariant behaviour correspondingly.
+
 ```
 from typing import TypeVar
 
@@ -280,6 +293,7 @@ KT_contra = TypeVar('KT_contra', contravariant=True)
 
 - Avoid extraneous whitespace.
 - Avoid trailling whitespace.
+
 ```
 # Yes: 
 spam(ham[1], {eggs: 2})
@@ -321,6 +335,7 @@ c = (a + b) * (a - b)
 - Otherwise, only use spaces.
 - Continuation lines should align wrapped elements either vertically, using Python's implicit line joining or using a hanging indent.
 - When using a hanging indent, there should be no arguments on the first line and further indentation should be used to clearly distinguish itself as a continuation line.
+
 ```
 # Add 4 spaces (an extra level of indentation) to distinguish arguments from the rest.
 def long_function_name(
@@ -384,6 +399,7 @@ UPDATE file_system
 - This forms a river down the middle making it easy for the reader's eye to scan over the code and separate the keywords from the implementation detail.
 - Rivers are bad in typography, but helpful here.
 - Use spaces before and after equal signs (=), after commas ',', Surrounding apostrophes (') where not within parentheses or with a trailing comma or semicolon.
+
 ```
 (SELECT f.species_name,
         AVG(f.height) AS average_height, AVG(f.diameter) AS average_diameter
@@ -403,6 +419,7 @@ UPDATE file_system
 - After each keyword definition.
 - After a comma when separating multiple columns into logical groups.
 - To separate code into related sections - helps to ease the readability of large chunks of code.
+
 ```
 SELECT a.title,
        a.release_date, a.recording_date, a.production_date -- grouped dates together
@@ -415,6 +432,7 @@ SELECT a.title,
 ### Indentation
 
 - Joins should be indented to the other side of the river and grouped with a new line where necessary.
+
 ```
 SELECT r.last_name
   FROM riders AS r
@@ -428,6 +446,7 @@ SELECT r.last_name
 ```
 
 - Subqueries should also be aligned to the right side of the river and then laid out using the same style as any other query.
+
 ```
 SELECT r.last_name,
        (SELECT MAX(YEAR(championship_date))
