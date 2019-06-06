@@ -13,7 +13,7 @@ documents: ['Procedure']
 ## Once confirmed
 
 <!-- Once any leave has been granted you will need to inform your collegues by: -->
-1. Add a public Out of Office message to the relevant dates on your Gmail calender
+1. Add a public Out of Office message to the relevant dates on your Gmail calendar
 2. Add an Out of Office AutoReply to your Gmail and include:
  - the first and last day
  - a subject line including when your leave starts and ends
