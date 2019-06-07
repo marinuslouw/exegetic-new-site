@@ -9,13 +9,13 @@ documents: ['Procedure']
   
 - **Repository**: Collection of code that functions as a self-standing unit - also called a package.
 - **Remote**: A common copy repository all team members use to exchange their work, *usually* hosted on a cloud service.
-- **Branch**: A copy of a repository, usually built off of a high-level version of a repository, than can be changed independently of other copies of the same repository. A `branch` has a unique name and it's own set of changes that can be `merged` into back into the high-level version of the repository.
+- **Branch**: A copy of a repository, usually built off of a high-level version of a repository, than can be changed independently of other copies of the same repository. A `branch` has a unique name and it's own set of changes that can be `merged` back into the high-level version of the repository.
 - **Merge request**: A request made by a user to a repository's maintainers to incorporate the user's changes, usually presented a feature branch, into the main working branch which is usually the develop branch `dev` - also called a *Pull request* (on Github). 
 
 
 ## Connecting To A Remote Repository
 
-To connect to repoostory, or contribute to a certain repository, create a local copy with:
+To connect to repostory, or contribute to a certain repository, create a local copy with:
 
 ```{r}
 $ git clone https://gitlab.com/exegetic/<repository_name>.git
@@ -30,7 +30,7 @@ origin	https://gitlab.com/exegetic/<repository_name>.git (fetch)
 origin	https://gitlab.com/exegetic/<repository_name>.git (push)
 ```
 
-This states that if we make any changes and "push" to the cloud repository, or the "origin", this will be to the location specified above. Similarily if we "pull" any changes made by others on the same repository into our copy, we will "pull" changes made to the "origin" into our copy of the repository.
+This states that if we make any changes and "push" to the cloud repository, or the "origin", this will be to the location specified above. Similarily if we "pull" and merge any changes into our copy of the repository, the changes will be those made to the "origin".
 
 
 ## Connecting Existing Local Repository To A Remote Repository
@@ -63,7 +63,7 @@ $ touch README.md
 Add the existing other local files.
 
 ```{r}
-$ git add README.md other_files.extensions
+$ git add README.md <filenames>
 ```
 
 Commit the relevant files to the staging area with a commit message.
@@ -72,7 +72,7 @@ Commit the relevant files to the staging area with a commit message.
 $ git commit -m "Initial commit"
 [master (root-commit) aBa00aba] Initial commit
 X files changed, X insertions(+)
-create mode 1001001 README.md other_files.extensions
+create mode 1001001 README.md <filenames>
 ```
 
 Push the files to the remote repository.
@@ -123,7 +123,7 @@ $ git push origin <new_feature_branch_name>
 
 ## Commit Messages
 
-Commit messages serve to describe the changes made on a high-level basis. Ensure that commit messages are informative, such as:
+Commit messages serve to describe the changes made on a high-level basis or the goal of the changes. Ensure that commit messages are informative, such as:
  *Resolved the bug where tabpanel 'summary' would not display until a driver was selected in login panel.*
       
 - In this message, the implemented changes are sufficiently detailed for a user to be able to understand the specific code changes' intentions.
@@ -143,7 +143,7 @@ Every project should have the following branches:
 * `master`
 * `dev`
 
-Feature branches should be made off `dev` and there should never have more than two *feature* branches active..  To create a new feature branch off of `dev`, first switch to `dev` branch.
+Feature branches should be made off `dev`. To create a new feature branch off of `dev`, first switch to `dev` branch.
 
 ```{r}
 $ git checkout dev
@@ -187,7 +187,9 @@ Reapply your changes to the new branch.
 $ git stash pop
 ```
 
-Commit your changes as detailed above.
+Commit your changes as detailed above. 
+
+If a branch has been worked on for an extended period of time, one should ensure the branch stays current by merging `dev` into the branch. 
 
 
 ## Merge Requests
@@ -213,4 +215,10 @@ Once the code has been tested, create a merge request on [Gitlab](https://gitlab
 * Navigate to the merge request tab.
 * Select the source branch to be merged and the destination branch, which is usually *develop*.
 * Under the "Assignee", assign the merge request to the relevant project leader.
+
+
+## README
+
+A `README` serves to describe the package, setup instructions, files  and any requirements the package may have. 
+
 
