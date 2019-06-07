@@ -15,6 +15,7 @@ documents: ['Policy']
 ### General
 
 1. Exegetic is closed on public holidays and no staff are required to report for duty.
+2. Please refer to the <a href="#">leave procedure</a> for more information.
 
 ### Annual Leave
 
