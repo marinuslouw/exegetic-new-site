@@ -1,6 +1,6 @@
 ---
 title: "Policy – Timesheets"
-draft: true
+draft: false
 documents: ['Policy']
 ---
 
