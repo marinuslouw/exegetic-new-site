@@ -1,18 +1,21 @@
 ---
 title: "Policy – Coding Standards"
-subtitle: "Table of Contents"
 draft: true
 documents: ['Policy']
-output:
-  html_document:
-    toc: true
 ---
+
+## Table of contents
+1. [General](#general)
+2. [Markdown](#markdown)
+3. [R](#r)
+4. [Python](#python)
+5. [SQL](#sql)
 
 
 Good coding style is like correct punctuation: you can manage without it, butitsuremakesthingseasiertoread. The standards below were taken from various sources. Please go through these and implement the coding standards of your relevant language. The aim of this document is to provide consistency across our various projects and undertakings. Following coding standards will make you, your colleagues, and every future version thereof, happier.
 
 
-## __General__
+## General <a name="general"></a>
 
 
 ### Source file encoding
@@ -127,7 +130,7 @@ SubscribersGeocode
 - Follow convention: camelCase, underscore_case, PascalCase, etc.
 
 
-## __Markdown__
+## Markdown <a name="markdown"></a>
 
 Markdown's code policy section was compiled by taking liberally from loopback's [Markdown style guide](https://loopback.io/doc/en/contrib/Markdown-style-guide.html). Please visit the link for more guidelines and to further clarify the guidelines below.
 
@@ -151,7 +154,7 @@ Markdown's code policy section was compiled by taking liberally from loopback's 
 ```
 
 
-## __R__
+## R <a name="r"></a>
 
 R's code policy section was compiled by taking liberally from Hadley's [Advanced R style guide](http://adv-r.had.co.nz/Style.html), the [tidyverse style guide](https://style.tidyverse.org/), and
 Google's [R style guide](https://google.github.io/styleguide/Rguide.xml). Please visit the links for more guidelines and to further clarify the guidelines below.
@@ -248,7 +251,7 @@ long_function_name <- function(a = "a long argument",
 
 
 
-## __Python__
+## Python <a name="python"></a>
 
 Python's code policy section was compiled by taking liberally from the PEP 8 [Python style guide](https://www.python.org/dev/peps/pep-0008/). Please visit the link for more guidelines and to further clarify the guidelines below.
 
@@ -365,7 +368,7 @@ def long_function_name(
     print(var_one)
 ```
 
-## __SQL__
+## SQL <a name="sql"></a>
 
 SQL's code policy section was compiled by taking liberally from [Simon Holywell's style guide](https://www.sqlstyle.guide/) and [Firefox's SQL style guide](https://docs.telemetry.mozilla.org/concepts/sql_style.html#left-align-root-keywords). Please visit the links for more guidelines and to further clarify the guidelines below.
 
