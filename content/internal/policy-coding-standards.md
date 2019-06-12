@@ -11,24 +11,19 @@ documents: ['Policy']
 4. [Python](#python)
 5. [SQL](#sql)
 
-
 Good coding style is like correct punctuation: you can manage without it, butitsuremakesthingseasiertoread. The standards below were taken from various sources. Please go through these and implement the coding standards of your relevant language. The aim of this document is to provide consistency across our various projects and undertakings. Following coding standards will make you, your colleagues, and every future version thereof, happier.
 
-
 ## General <a name="general"></a>
-
 
 ### Source file encoding
 
 - Use UTF-8 for all languages.
-
 
 ### Line length
 
 - Line length is arbitrary.
 - Whichever line length you prefer, keep it consistent across languages.
 - Up to 120 characters are allowed.
-
 
 ### File header guidelines
 
@@ -47,7 +42,6 @@ Good coding style is like correct punctuation: you can manage without it, butits
 # =================================================================================================
 ```
 
-
 ### Section header guidelines
 
 - Use headers to document and separate your code as it aids in the readability and interpretability of your code.
@@ -55,7 +49,6 @@ Good coding style is like correct punctuation: you can manage without it, butits
 ```
 # LIBRARIES ----------------------------------------------------------------------------------------
 ```
-
 
 ### Commenting guidelines
 
@@ -68,7 +61,6 @@ Good coding style is like correct punctuation: you can manage without it, butits
 # Load data from google drive.
 ```
 
-
 ### Architecture
 
 Writing code without thinking of its architecture is useless in the same way as dreaming about your desires without a plan of achieving them. Think long-term about your intended code, for example.
@@ -79,12 +71,10 @@ Writing code without thinking of its architecture is useless in the same way as 
 - How it will be tested and debugged.
 - How it will be updated.
 
-
 ### Package and module names 
 
 - Packages (R) and modules (Python) should have short, all-lowercase names.
 - The use of underscores are discouraged.
-
 
 ### Function, variable and object names
 
@@ -108,13 +98,11 @@ djm1
 SubscribersGeocode
 ```
 
-
 ### Hard-coding
 
 - The definition of hard-coding, is to fix data or parameters in a program in such a way that they cannot be altered without modifying the program.
 - Get into a habit of not hard-coding.
 - Code should be transferable.
-
 
 ### Duplication
 
@@ -122,24 +110,20 @@ SubscribersGeocode
 - Duplication leads to unnecessary maintenance.
 - If you are repeating your code, you likely need a function.
 
-
 ### Legibility
 
 - Write clean, readable code.
 - Use meaningful names and rather spend more than less time choosing a meaningful name.
 - Follow convention: camelCase, underscore_case, PascalCase, etc.
 
-
 ## Markdown <a name="markdown"></a>
 
 Markdown's code policy section was compiled by taking liberally from loopback's [Markdown style guide](https://loopback.io/doc/en/contrib/Markdown-style-guide.html). Please visit the link for more guidelines and to further clarify the guidelines below.
-
 
 ### Indentation, headers and whitespaces
 
 - Markdown files don't use extra indentation.
 - Always insert an open line between a section heading and the section content.
-- Always insert two blank lines in between sections.
 
 ### Links
 
@@ -153,12 +137,10 @@ Markdown's code policy section was compiled by taking liberally from loopback's 
 [`automigrate.js`](bin/automigrate.js).
 ```
 
-
 ## R <a name="r"></a>
 
 R's code policy section was compiled by taking liberally from Hadley's [Advanced R style guide](http://adv-r.had.co.nz/Style.html), the [tidyverse style guide](https://style.tidyverse.org/), and
 Google's [R style guide](https://google.github.io/styleguide/Rguide.xml). Please visit the links for more guidelines and to further clarify the guidelines below.
-
 
 ### File names
 
@@ -170,7 +152,6 @@ Google's [R style guide](https://google.github.io/styleguide/Rguide.xml). Please
 1-parse.R
 2-explore.R
 ```
-
 
 ### Spacing
 
@@ -188,7 +169,6 @@ average<-mean(feet/12+inches,na.rm=TRUE)
 
 For all the use cases of how to use spaces, go to the [syntax, spacing](http://adv-r.had.co.nz/Style.html) section of Hadley's (You know who Hadley is, right?) style guide.
 
-
 ### Curly braces
 
 - An opening curly brace should never go on its own line and should always be followed by a new line.
@@ -203,7 +183,6 @@ if (y == 0) {
 }
 ```
 
-
 ### Assignment
 
 - Use '<-', not '=', for assignment.
@@ -215,7 +194,6 @@ x <- 5
 # No:
 x = 5
 ```
-
 
 ### Line Breaks
 
@@ -233,7 +211,6 @@ subscribers <- subscribers %>%
 subscribers <- fetch_subscribers() %>% select(date, customer_id, active, phone_number) %>% arrange(date)
 ```
 
-
 ### Indentation
 
 - Use two spaces for indentation.
@@ -249,12 +226,9 @@ long_function_name <- function(a = "a long argument",
 }
 ```
 
-
-
 ## Python <a name="python"></a>
 
 Python's code policy section was compiled by taking liberally from the PEP 8 [Python style guide](https://www.python.org/dev/peps/pep-0008/). Please visit the link for more guidelines and to further clarify the guidelines below.
-
 
 ### Line Breaks
 
@@ -270,12 +244,10 @@ income = (gross_wages
           - student_loan_interest)
 ```
 
-
 ### Blank lines
 
 - Surround top-level function and class definitions with two blank lines.
 - Method definitions inside a class are surrounded by a single blank line.
-
 
 ### Imports
 
@@ -293,11 +265,9 @@ from mypkg.sibling import example
 import sys, os
 ```
 
-
 ### Class names
 
 - Class names should normally use the CapWords convention.
-
 
 ### Type variable names
 
@@ -311,7 +281,6 @@ from typing import TypeVar
 VT_co = TypeVar('VT_co', covariant=True)
 KT_contra = TypeVar('KT_contra', contravariant=True)
 ```
-
 
 ### Spacing
 
@@ -346,11 +315,9 @@ hypot2 = x * x + y * y
 c = (a + b) * (a - b)
 ```
 
-
 ### Assignment
 
 - Use '=' for assignment.
-
 
 ### Indentation
 
@@ -371,7 +338,6 @@ def long_function_name(
 ## SQL <a name="sql"></a>
 
 SQL's code policy section was compiled by taking liberally from [Simon Holywell's style guide](https://www.sqlstyle.guide/) and [Firefox's SQL style guide](https://docs.telemetry.mozilla.org/concepts/sql_style.html#left-align-root-keywords). Please visit the links for more guidelines and to further clarify the guidelines below.
-
 
 ### General
 
@@ -398,7 +364,6 @@ SET
 - Avoid descriptive prefixes or Hungarian notation such as 'sp_' or 'tbl'.
 - Avoid plurals - use the more natural collective term where possible instead.
 
-
 ### Table naming conventions
 
 - Use a collective name or, less ideally, a plural form.
@@ -406,7 +371,6 @@ SET
 - Do not prefix with tbl or any other such descriptive prefix or Hungarian notation.
 - Never give a table the same name as one of its columns and vice versa.
 - Avoid, where possible, concatenating two table names together to create the name of a relationship table - rather than `cars_mechanics` use `services`.
-
 
 ### General naming conventions
 
@@ -416,7 +380,6 @@ SET
 - Only use letters, numbers and underscores in names.
 - Avoid the use of multiple consecutive underscores — these can be hard to read.
 - Avoid abbreviations and if you have to use them, make sure they are commonly understood.
-
 
 ### Line spacing and Indentation
 
