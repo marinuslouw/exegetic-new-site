@@ -119,7 +119,7 @@ SubscribersGeocode
 ### Plots and Graphs
 
 - Title plots Y vs X (by Z if using legend).
-- X and Y axis are labelled by dimesion with units.
+- X and Y axis are labelled by dimension with units.
 - Dependent variable on y-axis
 - Export the image with the same name as the image title.
 
@@ -284,7 +284,7 @@ import sys, os
 
 ### Method chaining
 
-- Method chaining is simply being able to add a second function to whatever the first function returns.
+- Method chaining is simply being able to add a second method to whatever the first method returns.
 - Use method chaining to make work readable and avoid having to name intermediate steps.
 
 ```
@@ -361,11 +361,6 @@ def long_function_name(
         var_four):
     print(var_one)
 ```
-
-### Pull requests
-
-- Restart kernel and "Run all cells".
-- If there is data pulled from a SQL query and stored locally that the notebook depends on - ensure the notebooks runs after a fresh clean and pull of the data.
 
 ## SQL <a name="sql"></a>
 
