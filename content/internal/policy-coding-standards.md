@@ -129,6 +129,10 @@ SubscribersGeocode
 - Give it a descriptive and project-relevant name.
 - Keep SQL scripts within python and R scripts unless it is heavily reused so that one does not have to unecessarily keep files in step.
 
+### Unused code
+
+- Before merging code, remove any unused code and comments.
+
 ## Markdown <a name="markdown"></a>
 
 Markdown's code policy section was compiled by taking liberally from loopback's [Markdown style guide](https://loopback.io/doc/en/contrib/Markdown-style-guide.html). Please visit the link for more guidelines and to further clarify the guidelines below.
@@ -357,6 +361,11 @@ def long_function_name(
         var_four):
     print(var_one)
 ```
+
+### Pull requests
+
+- Restart kernel and "Run all cells".
+- If there is data pulled from a SQL query and stored locally that the notebook depends on - ensure the notebooks runs after a fresh clean and pull of the data.
 
 ## SQL <a name="sql"></a>
 
